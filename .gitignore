@@ -28,3 +28,4 @@ hs_err_pid*
 !/.idea/misc.xml
 !/.idea/workspace.xml
 /.gradle/*
+/.gradle/5.5.1/*

@@ -11,8 +11,7 @@ public class UserTest {
 
     @Test
     void test同じユーザ() {
-        User user1 = new User();
-        User user2 = new User();
+        String user1 = "aaa";
         assertEquals("aaa", user1);
     }
 }

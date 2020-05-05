@@ -1,7 +1,5 @@
 package practice.basicfeature.filesystem.Interface;
 
 public class Shell {
-    public boolean setMethod() {
-
-    }
+    public boolean setMethod(){return false;}
 }
