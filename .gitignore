@@ -21,9 +21,11 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-/.DS_Store
-/.idea/sbt.xml
-/.idea/uiDesigner.xml
-/.idea/vcs.xml
-/.gradle
-
+.DS_Store
+/.idea/*
+!/.idea/codeStyles/*
+!/.idea/gradle.xml
+!/.idea/misc.xml
+!/.idea/workspace.xml
+!/.idea/libraries/junit5_r5_6.xml
+/.gradle/*
