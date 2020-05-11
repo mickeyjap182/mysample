@@ -1,4 +1,4 @@
-package practice.basicfeature.Novice;
+package practice.basicfeature.novice;
 
 import java.util.*;
 import java.util.stream.Collectors;

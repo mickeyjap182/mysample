@@ -2,29 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a498de-5369-4491-a8c7-508b37f84dfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/Novice/DataStruct101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/generics/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/generics/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/generics/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/practice/basicfeature/generics/RunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit5_r5_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/searchsample/SpeedChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/DataStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/DataStructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/filesystem/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/filesystem/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/filesystem/Interface/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/filesystem/Interface/Shell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/filesystem/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/filesystem/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/practice/basicfeature/DataStructureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/practice/basicfeature/DataStructureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/practice/basicfeature/filesystem/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/practice/basicfeature/filesystem/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/Novice/DataStruct101.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/DataStruct101.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/generics/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/generics/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/generics/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/generics/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/generics/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/generics/Vehicle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -101,22 +85,10 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/filesystem/File.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+                <state relative-caret-position="90">
+                  <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -170,7 +142,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/local.properties">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="75">
@@ -180,15 +152,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/Novice/DataStruct101.java">
+            <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/searchsample/SpeedChecker.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1129#1130#0" expanded="true" />
-                    <element signature="e#1185#1186#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="60">
+                  <caret line="4" selection-start-line="4" selection-end-line="4" />
                 </state>
               </provider>
             </entry>
@@ -207,27 +174,9 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/filesystem/User.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="26" selection-end-line="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/filesystem/Interface/Shell.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/filesystem/UserTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="175">
+                <state relative-caret-position="180">
                   <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -239,23 +188,68 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/generics/Vehicle.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" selection-start-line="8" selection-end-line="11" />
+                <state>
+                  <caret column="38" selection-start-column="38" selection-end-column="38" />
                   <folding>
-                    <element signature="e#121#122#0" expanded="true" />
-                    <element signature="e#154#155#0" expanded="true" />
-                    <element signature="e#188#189#0" expanded="true" />
-                    <element signature="e#222#223#0" expanded="true" />
+                    <element signature="e#214#215#0" expanded="true" />
+                    <element signature="e#248#249#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/generics/Runner.java">
+            <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/Runner.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="131" selection-start-line="131" selection-end-line="131" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1088#1089#0" expanded="true" />
+                    <element signature="e#1134#1135#0" expanded="true" />
+                    <element signature="e#2176#2177#0" expanded="true" />
+                    <element signature="e#2235#2236#0" expanded="true" />
+                    <element signature="e#2519#2520#0" expanded="true" />
+                    <element signature="e#2611#2612#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/practice/utils/logger/TimeLogger.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="59">
+                  <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+                  <folding>
+                    <element signature="e#143#144#0" expanded="true" />
+                    <element signature="e#192#193#0" expanded="true" />
+                    <element signature="e#136#137#0" expanded="true" />
+                    <element signature="e#178#179#0" expanded="true" />
+                    <element signature="e#557#558#0" expanded="true" />
+                    <element signature="e#604#605#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/novice/syntax/RunnerTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/generics/Sedan.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="180">
-                  <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+                  <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -263,12 +257,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/generics/Car.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#155#156#0" expanded="true" />
-                    <element signature="e#187#188#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="210">
+                  <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -276,7 +266,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Learning">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
+                <state relative-caret-position="15">
                   <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
                   <folding>
                     <element signature="e#63#64#0" expanded="true" />
@@ -289,7 +279,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/DataStructureTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-27">
+                <state relative-caret-position="150">
                   <caret line="12" selection-start-line="12" selection-end-line="12" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -301,21 +291,12 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/generics/RunnerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+                <state relative-caret-position="90">
+                  <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
                   <folding>
                     <element signature="e#139#140#0" expanded="true" />
                     <element signature="e#166#167#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/filesystem/Group.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -361,10 +342,17 @@
         <option value="$PROJECT_DIR$/src/practice/basicfeature/filesystem/User.java" />
         <option value="$PROJECT_DIR$/src/practice/basicfeature/filesystem/Interface/Shell.java" />
         <option value="$PROJECT_DIR$/tests/practice/basicfeature/filesystem/UserTest.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/generics/Vehicle.java" />
         <option value="$PROJECT_DIR$/tests/practice/basicfeature/generics/RunnerTest.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/generics/Runner.java" />
         <option value="$PROJECT_DIR$/src/practice/basicfeature/generics/Car.java" />
+        <option value="$PROJECT_DIR$/src/practice/basicfeature/generics/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/practice/basicfeature/generics/Sedan.java" />
+        <option value="$PROJECT_DIR$/src/practice/basicfeature/generics/Runner.java" />
+        <option value="$PROJECT_DIR$/src/practice/basicfeature/Novice/sytax/Runner.java" />
+        <option value="$PROJECT_DIR$/src/practice/basicfeature/Novice/syntax/Runner.java" />
+        <option value="$PROJECT_DIR$/src/practice/utils/logger/ConsoleLogger.java" />
+        <option value="$PROJECT_DIR$/tests/practice/basicfeature/novice/syntax/RunnerTest.java" />
+        <option value="$PROJECT_DIR$/src/practice/utils/logger/TimeLogger.java" />
+        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/Runner.java" />
       </list>
     </option>
   </component>
@@ -375,10 +363,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="153" />
-    <option name="y" value="127" />
-    <option name="width" value="1217" />
-    <option name="height" value="732" />
+    <option name="x" value="97" />
+    <option name="y" value="23" />
+    <option name="width" value="1244" />
+    <option name="height" value="837" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -408,7 +396,21 @@
               <item name="mysample" type="b2602c69:ProjectViewProjectNode" />
               <item name="mysample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="basicfeature" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="logger" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mysample" type="b2602c69:ProjectViewProjectNode" />
@@ -420,6 +422,27 @@
               <item name="mysample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="basicfeature" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="basicfeature" type="462c0819:PsiDirectoryNode" />
+              <item name="filesystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="basicfeature" type="462c0819:PsiDirectoryNode" />
+              <item name="generics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="basicfeature" type="462c0819:PsiDirectoryNode" />
+              <item name="syntax" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -453,11 +476,12 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="practice.basicfeature" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="practice.basicfeature.filesystem" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.basicfeature.novice.syntax" />
+      <recent name="practice.basicfeature.filesystem" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -472,23 +496,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RunnerTest">
+  <component name="RunManager" selected="JUnit.RunnerTest (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.basicfeature.Main" />
       <module name="mysample.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.basicfeature.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.Main" />
-      <module name="mysample" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practice.basicfeature.*" />
@@ -531,6 +542,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunnerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mysample.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.basicfeature.novice.syntax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice.basicfeature.novice.syntax" />
+      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.novice.syntax.RunnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mysample.test" />
       <extension name="coverage">
@@ -548,11 +574,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunnerTest (1)" />
         <item itemvalue="JUnit.RunnerTest" />
         <item itemvalue="JUnit.DataStructureTest (1)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Gradle.mysample" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -586,51 +612,53 @@
       <workItem from="1587869462557" duration="9865000" />
       <workItem from="1588413826649" duration="1362000" />
       <workItem from="1588520612977" duration="58000" />
-      <workItem from="1588634827565" duration="5722000" />
+      <workItem from="1588634827565" duration="11846000" />
+      <workItem from="1589080186134" duration="7697000" />
+      <workItem from="1589164925211" duration="4697000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DataStructureTest - 2020.04.01 at 09h 41m 24s.xml">
-      <configuration name="DataStructureTest" configurationId="JUnit" />
+    <history-entry file="RunnerTest_(1) - 2020.05.12 at 00h 47m 47s.xml">
+      <configuration name="RunnerTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2020.05.05 at 08h 55m 02s.xml">
-      <configuration name="RunnerTest" configurationId="JUnit" />
+    <history-entry file="RunnerTest_(1) - 2020.05.12 at 00h 48m 15s.xml">
+      <configuration name="RunnerTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2020.05.05 at 09h 02m 21s.xml">
-      <configuration name="RunnerTest" configurationId="JUnit" />
+    <history-entry file="RunnerTest_(1) - 2020.05.12 at 00h 50m 55s.xml">
+      <configuration name="RunnerTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2020.05.05 at 09h 03m 31s.xml">
-      <configuration name="RunnerTest" configurationId="JUnit" />
+    <history-entry file="RunnerTest_(1) - 2020.05.12 at 00h 51m 40s.xml">
+      <configuration name="RunnerTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2020.05.05 at 09h 04m 06s.xml">
-      <configuration name="RunnerTest" configurationId="JUnit" />
+    <history-entry file="RunnerTest_(1) - 2020.05.12 at 00h 54m 34s.xml">
+      <configuration name="RunnerTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2020.05.05 at 09h 04m 25s.xml">
-      <configuration name="RunnerTest" configurationId="JUnit" />
+    <history-entry file="RunnerTest_(1) - 2020.05.12 at 01h 02m 26s.xml">
+      <configuration name="RunnerTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2020.05.05 at 22h 34m 38s.xml">
-      <configuration name="RunnerTest" configurationId="JUnit" />
+    <history-entry file="RunnerTest_(1) - 2020.05.12 at 01h 06m 49s.xml">
+      <configuration name="RunnerTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2020.05.05 at 22h 37m 15s.xml">
-      <configuration name="RunnerTest" configurationId="JUnit" />
+    <history-entry file="RunnerTest_(1) - 2020.05.12 at 01h 07m 10s.xml">
+      <configuration name="RunnerTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2020.05.05 at 22h 52m 47s.xml">
-      <configuration name="RunnerTest" configurationId="JUnit" />
+    <history-entry file="RunnerTest_(1) - 2020.05.12 at 01h 07m 46s.xml">
+      <configuration name="RunnerTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2020.05.05 at 23h 05m 43s.xml">
-      <configuration name="RunnerTest" configurationId="JUnit" />
+    <history-entry file="RunnerTest_(1) - 2020.05.12 at 01h 10m 01s.xml">
+      <configuration name="RunnerTest (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78122000" />
+    <option name="totallyTimeSpent" value="96640000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="153" y="127" width="1217" height="732" extended-state="0" />
+    <frame x="97" y="23" width="1244" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.2638298" />
-      <window_info id="Structure" order="1" sideWeight="0.50121063" side_tool="true" visible="true" weight="0.2638298" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.26622295" />
+      <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.2579035" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -639,15 +667,15 @@
       <window_info id="Learn" order="7" weight="0.3294702" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49917218" weight="0.328594" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49106383" weight="0.4554295" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4970213" visible="true" weight="0.3306321" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48668885" visible="true" weight="0.41551247" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49251246" weight="0.32956153" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49917218" weight="0.328594" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50297874" side_tool="true" visible="true" weight="0.3306321" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49276596" weight="0.5089141" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51331115" side_tool="true" visible="true" weight="0.41551247" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48835275" weight="0.5069252" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Build" order="13" sideWeight="0.49337748" weight="0.328594" />
@@ -660,7 +688,7 @@
       <window_info anchor="right" id="Database" order="6" weight="0.3298969" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Gradle" order="9" visible="true" weight="0.09787234" />
+      <window_info anchor="right" id="Gradle" order="9" visible="true" weight="0.095673874" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -760,6 +788,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/filesystem/SomeOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/filesystem/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/filesystem/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="26" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/filesystem/Interface/Shell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/DataStruct101.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/generics/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/filesystem/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/filesystem/Directory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -799,22 +911,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
+    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/searchsample/SpeedChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/Novice/DataStruct101.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1185#1186#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -825,54 +925,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/filesystem/SomeOne.java">
+    <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/filesystem/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/filesystem/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/filesystem/Interface/Shell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/filesystem/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="180">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -882,20 +944,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/generics/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="8" selection-end-line="11" />
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
           <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/generics/Sedan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/generics/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Learning">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/DataStructureTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
+        <state relative-caret-position="150">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -905,8 +990,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/generics/RunnerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
             <element signature="e#139#140#0" expanded="true" />
             <element signature="e#166#167#0" expanded="true" />
@@ -914,49 +999,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Learning">
+    <entry file="file://$PROJECT_DIR$/src/practice/utils/logger/TimeLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="59">
+          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
           <folding>
-            <element signature="e#63#64#0" expanded="true" />
-            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/Main.java">
+    <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/novice/syntax/RunnerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/generics/Car.java">
+    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="255">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
           <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#2235#2236#0" expanded="true" />
+            <element signature="e#2519#2520#0" expanded="true" />
+            <element signature="e#2611#2612#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/filesystem/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/generics/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>
