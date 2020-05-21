@@ -1,8 +1,14 @@
 package practice.basicfeature.novice.syntax;
 
+import com.sun.jdi.IntegerType;
+import com.sun.jdi.IntegerValue;
 import com.sun.jdi.VoidValue;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import java.rmi.activation.Activator;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.function.BiFunction;
 import java.util.function.Function;
@@ -16,6 +22,10 @@ public class Runner {
         default public String getName() {return "unknown";}
         public int getWeight();
         public void bark();
+    }
+
+    interface EvalInstance {
+        public Object create(String className, String fullClassName);
     }
 
     private static String[] learnTask;
@@ -53,30 +63,28 @@ public class Runner {
      * verify class loaders.
      *
      */
-    public void main() throws InterruptedException {
+    public void main() throws ClassNotFoundException,
+            InterruptedException,
+            NoSuchMethodException,
+            IllegalAccessException,
+            InstantiationException {
 
         logger.info("startup!! main()!!");
         innerClass();
-/*
-        boolean isInitialize = true;
-        String targetClass = "java.util.list";
-        ClassLoader loader = new ClassLoader() {
-            @Override
-            public Class<?> loadClass(String name) throws ClassNotFoundException {
-                return super.loadClass(name);
-            }
-        }
 
-        String[] fruitArr = new String[]{"Apple", "Banana", "Citrus"};
+        String className = "practice.basicfeature.novice.syntax.MoneyPod";
+        MoneyPod a = new practice.basicfeature.novice.syntax.MoneyPod(200);
 
+
+        Class<?> cls = Class.forName(className);
         try {
+            Constructor<?> c = cls.getDeclaredConstructor(Integer.class);
+            Object instance = c.newInstance(100);
+            if (instance instanceof MoneyPod) System.out.println("===it is instance of MoneyPod.==");
 
-            Class.forName(targetClass,isInitialize,);
-        } catch (ClassNotFoundException e) {
-           e.printStackTrace();
-
+        } catch (InvocationTargetException ex) {
+            System.out.println("===it is instance of other of MoneyPod.==");
         }
-*/
     }
 
     private void innerClass() {

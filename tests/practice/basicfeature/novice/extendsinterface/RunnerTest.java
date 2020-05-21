@@ -1,7 +1,6 @@
-package practice.basicfeature.novice.syntax;
+package practice.basicfeature.novice.extendsinterface;
 
 import org.junit.jupiter.api.Test;
-import practice.basicfeature.novice.syntax.Runner;
 
 public class RunnerTest {
     @Test
