@@ -6,9 +6,9 @@ public class LongValueGenerator implements Iterable<Long>, Iterator<Long> {
 
     private Random r = new Random();
     private Map uniqueMap = new HashMap<>();
-    private long size;
+    private Integer size;
 
-    public LongValueGenerator(long size) {
+    public LongValueGenerator(Integer size) {
         this.size = size;
     }
 
@@ -22,13 +22,13 @@ public class LongValueGenerator implements Iterable<Long>, Iterator<Long> {
     public Long next() {
         // TODO null is not better?
         if (!this.hasNext()) return null;
-        long value;
+        Long value;
 
         // TODO loop is not beatuiful?
         for (value = r.nextLong(); uniqueMap.containsKey(value); value = r.nextLong()) {
             // nothing to do...
         }
-        uniqueMap.put(value, value);
+        uniqueMap.put(value,value);
         return value;
     }
 

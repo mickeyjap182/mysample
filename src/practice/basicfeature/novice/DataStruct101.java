@@ -13,6 +13,7 @@ public class DataStruct101 {
         m.set();
         m.list();
         m.date();
+        m.string();
         return true;
     }
 
@@ -48,6 +49,13 @@ public class DataStruct101 {
         System.out.println(c.get(Calendar.WEEK_OF_MONTH));
         System.out.println(c.get(HOUR_OF_DAY));
         System.out.println(c.get(Calendar.HOUR_OF_DAY));
+    }
+
+    public void string() {
+        String delmiliter = "_comma_";
+        String aaa = "gaa, gaga, gagaa,gagaag,";
+        Arrays.stream(aaa.split(delmiliter)).forEach(System.out::println);
+
     }
 
 }
