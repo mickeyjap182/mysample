@@ -1,9 +1,5 @@
 package practice.basicfeature.novice.threading;
 
-import java.util.*;
-import java.util.stream.IntStream;
-import java.util.stream.LongStream;
-
 public class Runner {
 
     public static void main(String[] args) {
@@ -34,6 +30,22 @@ public class Runner {
             System.out.println(v.unitPrice);
             System.out.println(v.name);
         });
+
+        // Dead Lock
+        Object obj = new Object();
+        DeadLock test = new DeadLock();
+        Thread th = new Thread(test, "Child");
+        try {
+            th.start();
+            Thread.sleep(5000);
+            synchronized (test) {
+                test.finished = true;
+            }
+        }
+        catch (Exception ex) {
+            ex.printStackTrace(System.out);
+        }
+
     }
 
     public static Object[][] findData() {

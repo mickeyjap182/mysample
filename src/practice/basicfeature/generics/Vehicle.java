@@ -10,10 +10,12 @@ public class Vehicle<T> {
 
     private T vehicleType;
 
+    /** arguments is wild card */
     public Vehicle(T type) {
         vehicleType = type;
     }
 
+    /** */
     public T getVehicleType() {
         return vehicleType;
     }

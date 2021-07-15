@@ -1,13 +1,13 @@
-package practice.basicfeature.novice.threading;
+package practice.basicfeature.novice;
 
 import org.junit.jupiter.api.Test;
 
-public class RunnerTest {
+public class DataStruct101Test {
 
     @Test
     public void test_go() {
         try {
-            new Runner().main(new String[]{});
+            boolean b = new DataStruct101().run();
         } catch(Exception e) {
             e.printStackTrace();
         }

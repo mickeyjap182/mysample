@@ -4,9 +4,13 @@ package practice.utils.logger;
 public class TimeLogger {
     public static final String format = "====== elaspedTime:%.3f millisec [ %s ]======\n";
 
-    private long startNanoTime;
+    private static long startNanoTime;
 
-    private TimeLogger() {
+    /**
+     * same. because of a utility class.
+     **/
+    private TimeLogger(){}
+    static {
         startNanoTime = System.nanoTime();
     }
     public static TimeLogger getLogger() {

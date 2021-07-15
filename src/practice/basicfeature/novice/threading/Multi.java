@@ -20,13 +20,7 @@ public class Multi implements  Runnable {
     @Override
     public void run() {
 
-        for(Object[] object : data) {
-            synchronized(latestSerialNumber) {
-                latestSerialNumber++;
-            }
-            OnlyOneTask(latestSerialNumber);
-
-        }
+        OnlyOneTask(latestSerialNumber);
     }
 
     public void OnlyOneTask(Integer id) {

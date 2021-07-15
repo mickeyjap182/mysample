@@ -1,21 +1,21 @@
 package practice.basicfeature.novice.syntax;
 
-import com.sun.jdi.IntegerType;
-import com.sun.jdi.IntegerValue;
-import com.sun.jdi.VoidValue;
+import practice.utils.logger.TimeLogger;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
-import java.rmi.activation.Activator;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-import practice.utils.logger.TimeLogger;
+//import apache.commons.lang.SerializationUtils;
 
 public class Runner {
+    enum Bird {
+        CROW,
+        SPARROW,
+        SWAN
+    }
 
     /** inner interface for an Anonymous class.  */
     interface Animal {
@@ -70,20 +70,36 @@ public class Runner {
             InstantiationException {
 
         logger.info("startup!! main()!!");
+        runDataType();
+        logger.info("");
         innerClass();
 
         String className = "practice.basicfeature.novice.syntax.MoneyPod";
-        MoneyPod a = new practice.basicfeature.novice.syntax.MoneyPod(200);
+//        MoneyPod a = new practice.basicfeature.novice.syntax.MoneyPod();
+//        SerializationUtils.clone();
 
 
         Class<?> cls = Class.forName(className);
         try {
             Constructor<?> c = cls.getDeclaredConstructor(Integer.class);
             Object instance = c.newInstance(100);
-            if (instance instanceof MoneyPod) System.out.println("===it is instance of MoneyPod.==");
+            if (instance instanceof MoneyPod) reflectAndSerialize((MoneyPod) instance);
 
         } catch (InvocationTargetException ex) {
             System.out.println("===it is instance of other of MoneyPod.==");
+
+        } finally {
+            System.out.println("== it is ending.==");
+        }
+        new Algo().start();
+    }
+
+    private void reflectAndSerialize(MoneyPod mp) {
+        System.out.println("===it is instance of MoneyPod.==");
+        try {
+
+        } catch (MoneyPodOverflowException ex) {
+            ex.printStackTrace();
         }
     }
 
@@ -137,5 +153,39 @@ public class Runner {
         printBark.apply(cat);
         printBark.apply(dog);
 
+        int a = Payment.CREDIT.getValue();
+
+        logger.info(Integer.toString(a));
+
+        String aa = Arrays.stream(Payment.values()).map(Payment::getValue).toString();
+        logger.info(aa);
+
+    }
+    private void runDataType() {
+
+        System.out.println("====== data type test.====");
+        System.out.println("============== enum");
+        String[] enumValue = new String[] {"SPARROW", "MORE", null};
+        for(var value: enumValue) {
+            try {
+                Bird.valueOf(value);
+
+            } catch(IllegalArgumentException | NullPointerException e) {
+                e.printStackTrace();
+            }
+
+        }
+        System.out.println("============== List");
+        List<String> list;
+        list = Arrays.asList();
+        System.out.println(String.format("Arrays.asList() Type: %s , Length: %d", list.getClass().getName(), list.size()));
+//        HashMap<_Input, _Output> aaa;
+        System.out.println("============== Map -- hashmap 同期を取らないhashtable");
+        Map<String, String> table =new Hashtable<>();
+        // TODO:Concurrent
+        table.size();
+        // TODO:匿名クラス
+
+        // Runnableで実装とThreadで実装
     }
 }

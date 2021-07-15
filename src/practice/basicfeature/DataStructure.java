@@ -3,6 +3,7 @@ package practice.basicfeature;
 
 public class DataStructure {
 
+    public Integer idInteger;
     public int id =  1001;
     private int  o;
     public DataStructure(int o) {
@@ -17,4 +18,10 @@ public class DataStructure {
         return this.o;
     }
 
+    public void setAsI(Integer i) {
+        this.idInteger = i;
+    }
+    public Integer getAsI() {
+        return this.idInteger;
+    }
 }

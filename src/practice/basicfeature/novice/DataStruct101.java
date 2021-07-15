@@ -8,12 +8,12 @@ import static java.util.Calendar.HOUR_OF_DAY;
 public class DataStruct101 {
     public boolean run() {
         System.out.println("test");
-
         DataStruct101 m = new DataStruct101();
         m.set();
         m.list();
         m.date();
         m.string();
+        m.cast();
         return true;
     }
 
@@ -58,4 +58,21 @@ public class DataStruct101 {
 
     }
 
+    public void cast() {
+        Integer i = 300;
+        System.out.println("=====cast test====");
+        System.out.println(integerAsInt(i));
+        try {
+            i = null;
+            System.out.println(integerAsInt(i));
+
+        } catch(Exception e) {
+            e.printStackTrace();
+
+        }
+
+    }
+    private int integerAsInt(int i) {
+        return i + 2;
+    }
 }
