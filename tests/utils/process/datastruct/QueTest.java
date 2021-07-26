@@ -2,6 +2,7 @@ package utils.process.datastruct;
 
 import org.junit.jupiter.api.Test;
 import practice.utils.datastruct.Que;
+import practice.utils.logger.TimeLogger;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -23,9 +24,7 @@ public class QueTest {
         public void run() {
             System.out.println("No. " + Integer.toString(no)  + " is started running.");
 
-
             fifo.put(name);
-
 
             String message = fifo.poll();
             System.out.println("No. " + Integer.toString(no)  + " " + message + " is poped message.");
@@ -39,11 +38,72 @@ public class QueTest {
     }
 
     @Test
-    public void test_bloking_que() {
+    public void test_blocking_que() {
+        TimeLogger logger = TimeLogger.getLogger();
+        logger.resetElaspedTime();
+//        logger.info("start main thread pipeline:single, thread:single ");
+
+        Que q = new Que(10);
+
+        List<Threading> tasks =  List.of(
+                new Threading(1, "apple" , q),
+                new Threading(2, "banana", q),
+                new Threading(3, "orange", q),
+                new Threading(4, "tomato", q),
+                new Threading(5, "cherry", q),
+                new Threading(6, "melon" , q)
+
+        );
+
+        tasks.stream().map(t -> {
+                t.run();
+                // use join() if you wait for all threads.
+                return t;
+        }).collect(Collectors.toList());
 
 
+        logger.info("end main thread pipeline:single, thread:single");
 
-        System.out.println("=====start main thread=====");
+    }
+
+    /**
+     * maybe , most quickly.
+     */
+    @Test
+    public void test_blocking_que_with_parallel_pipeline() {
+        TimeLogger logger = TimeLogger.getLogger();
+        logger.resetElaspedTime();
+//        logger.info("start main thread pipeline:single, thread:single ");
+
+        Que q = new Que(10);
+
+        List<Threading> tasks =  List.of(
+                new Threading(1, "apple" , q),
+                new Threading(2, "banana", q),
+                new Threading(3, "orange", q),
+                new Threading(4, "tomato", q),
+                new Threading(5, "cherry", q),
+                new Threading(6, "melon" , q)
+
+        );
+
+        tasks.parallelStream().map(t -> {
+            t.run();
+            // use join() if you wait for all threads.
+            return t;
+        }).collect(Collectors.toList());
+
+
+        logger.info("end main thread pipeline:parallel, thread:single");
+
+    }
+
+    @Test
+    public void test_blocking_que_with_multi() {
+
+        TimeLogger logger = TimeLogger.getLogger();
+        logger.resetElaspedTime();
+//        logger.info("start main thread pipeline:multi, thread:multi");
         Que q = new Que(10);
 
         List<Threading> tasks =  List.of(
@@ -69,11 +129,7 @@ public class QueTest {
         }).collect(Collectors.toList());
 
 
-        System.out.println("=====end main thread=====");
-
-
-
-
+        logger.info("end main thread pipeline:parallel, thread:multi");
     }
 
 }

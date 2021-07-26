@@ -3,21 +3,22 @@ package practice.basicfeature.novice.threading;
 public class Runner {
 
     public static void main(String[] args) {
-        Multi m = new Multi();
-        Thread thread = new Thread(m);
+
+        // start manager process
+        ManagerRunner m = new ManagerRunner();
         m.setTasks(findData());
 
         System.out.println("==start==");
-        // start multi threading.
-        thread.start();
+//         start multi threading.
+//        Thread thread = new Thread(m);
+//        thread.start();
 
         // non blocking.
-        System.out.printf("=== All threads has started. ===\n");
 
 
         // block until threads ends.
         try {
-            thread.join();
+            m.execTasks(2);
             System.out.printf("=== Threads ended. ===\n");
 
         } catch (InterruptedException ex) {

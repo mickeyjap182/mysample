@@ -22,6 +22,10 @@ public class TimeLogger {
         System.out.printf(format, toMillSec(elapsedTime), message);
     }
 
+    public void resetElaspedTime() {
+        startNanoTime = System.nanoTime();
+    }
+
     private double toMillSec(long nanoTime) {
         return (double)nanoTime / 1000000;
     }

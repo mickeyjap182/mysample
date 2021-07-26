@@ -12,9 +12,9 @@ public class Runner {
     private static final Pattern PATTERN_UPPER_CASE = Pattern.compile("[abcdefghijklmnopqrstuvwxyz]");
     private static final Pattern PATTERN_ETC = Pattern.compile("[^0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]");
 
-    public static class SSS {
+    public static class OptionalWrapper {
         Optional<String> value;
-        SSS(String value){
+        OptionalWrapper(String value){
             this.value = value == null ? Optional.empty() : Optional.of(value);
         }
 
@@ -34,13 +34,13 @@ public class Runner {
                 .reduce(0, (sum, variety) -> sum + 1, Integer::sum);
 
         System.out.println("=====level:==="+Integer.valueOf(complexity)+"====");
-        Optional<SSS> aaa = Optional.of(new SSS("a"));
+        Optional<OptionalWrapper> aaa = Optional.of(new OptionalWrapper("a"));
 
-        Optional<SSS> no =  Optional.empty();
+        Optional<OptionalWrapper> no =  Optional.empty();
 
-        Optional<SSS> in_no =  Optional.of(new SSS(null));
+        Optional<OptionalWrapper> in_no =  Optional.of(new OptionalWrapper(null));
 
-        Optional<String>  ret =  aaa.flatMap(v -> {
+        Optional<String> ret =  aaa.flatMap(v -> {
             Optional val = v.getValue();
             System.out.println("==do aaa check.==");
             return val.isEmpty() ? Optional.empty() : Optional.of("answer:" + val.get().toString()).map(String::toUpperCase);
@@ -64,7 +64,7 @@ public class Runner {
         privateif();
 
         try {
-            trywithrewource();
+            tryWithResource();
         } catch(IOException e) {
             System.out.println("failed to open file: " +e.getMessage());
         }
@@ -85,7 +85,7 @@ public class Runner {
         new Monkey().initialize();
     }
 
-    private void trywithrewource() throws IOException{
+    private void tryWithResource() throws IOException{
         // as final variable .
         var root = new File("").getAbsolutePath();
         System.out.println("=== file: " + root + "===");
