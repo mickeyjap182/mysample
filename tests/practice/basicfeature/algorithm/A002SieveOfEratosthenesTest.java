@@ -2,26 +2,25 @@ package practice.basicfeature.algorithm;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.Map;
-import java.util.Objects;
+import java.util.SortedMap;
 import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class A002SieveOfEratosthenesTest {
     @Test
-    public void testFactorial(){
+    public void testRun(){
         A002SieveOfEratosthenes s = new A002SieveOfEratosthenes();
 
 
-        Map<Integer, Integer> result = s.main(0, 100);
+        SortedMap<Integer, Boolean> result = s.main(0, 100);
+        System.out.println(s.format(result));
         assertEquals(
-                20,
+                25,
                 result.values().stream()
-                        .filter(Objects::nonNull)
+                        .filter(v -> v)
                         .collect(Collectors.toList())
                         .size()
         );
-        System.out.println(s.format(result));
     }
 }

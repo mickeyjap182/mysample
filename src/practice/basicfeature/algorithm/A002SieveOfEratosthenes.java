@@ -1,48 +1,82 @@
 package practice.basicfeature.algorithm;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.security.InvalidParameterException;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+/**
+ * @see <a href="https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes">click here.</a>
+ */
 public class A002SieveOfEratosthenes {
 
 
-    public Map<Integer, Integer>  main(int min, int max) {
+    public SortedMap<Integer, Boolean> main(int min, int max) {
 
 
-        Map<Integer, Integer> list = initial(min, max);
+        // make base tree map.
+        SortedMap<Integer, Boolean> list = initial(min, max);
+        System.out.println();
         System.out.println(format(list));
 
-        // fillter
-        list.put(0, null);
-        list.put(1, null);
-        var result = filter(list, 2);
-        result = filter(result, 3);
-        result = filter(result, 5);
-        result = filter(result, 7);
-        result = filter(result, 11);
+        // terminate rule: upper limit is less than or equal to square root of max value.
+        int ceil = (int) Math.sqrt(max);
 
-        // 11 > route 99 ... 9.95
-        return result;
+        for(int i = 3;  ; i++) {
+
+            if (isNotPrimeNumber(list, i)) continue;
+
+            // sieve by Prime number.
+            list = sieve(list, i);
+
+            // until first greater number. and 11 is the greater than or equal to square root of 100 (= 10).
+            if (i >= ceil) break;
+
+        }
+
+        return list;
 
     }
 
-    /** make a sieve map. */
-    public Map<Integer, Integer> initial(int min, int max) {
-        return IntStream.range(min, max).mapToObj(v -> v).collect(Collectors.toMap(k -> k, v -> v));
+
+    /**
+     * it seems that this number is a Prime number.
+     * */
+    public boolean isNotPrimeNumber(Map<Integer, Boolean> map, int target) {
+        return !map.get(target);
     }
 
-    /** make a filter */
-    public Map<Integer, Integer> filter(Map<Integer, Integer> map, int target) {
-        final Map<Integer, Integer> newMap = new HashMap<>();
+    /**
+     * phase1.
+     * make a sieve map and natural number from 2 .
+     * */
+    public SortedMap<Integer, Boolean> initial(int min, int max) {
+        return IntStream.range(min, max)
+                .mapToObj(i -> i)
+                .collect(
+                        Collectors.toMap(
+                                k -> k,
+                                v -> v < 2 || v % 2 != 0,
+                                (b , a) -> { throw new InvalidParameterException(String.format("duplicate key : %d <-> %d")); },
+                                TreeMap::new
+                        )
+                );
+    }
+
+
+    /**
+     * phase2.
+     * filter map value
+     **/
+    public SortedMap<Integer, Boolean> sieve(Map<Integer, Boolean> map, int target) {
+        final SortedMap<Integer, Boolean> newMap = new TreeMap<>();
         map.entrySet().stream().map(v -> {
-            // 値なしか、最初の値(素数)か、素数の倍数値でない場合は値に変更なし
-            if (v.getValue() == null || v.getValue() == 0 || v.getValue() / target == 0 || v.getValue() % target != 0) {
+            // if sequential number  "a: is invalid -> remain 'false'" or "b: is first number -> remain 'true'" or "c: not multipul Prime number -> remain 'true'" .
+            if (v.getValue() == false || Objects.equals(target, v.getKey()) || v.getKey() % target != 0) {
                 newMap.put(v.getKey(), v.getValue());
             } else {
-                // 素数の倍数値か
-                newMap.put(v.getKey(), null);
+                // it is not prime number
+                newMap.put(v.getKey(), false);
             }
             return v.getKey() ;
         }).collect(Collectors.toMap(k -> k, v -> v));
@@ -50,14 +84,18 @@ public class A002SieveOfEratosthenes {
         return newMap;
     }
 
-    /** make a format */
-    public static String format(Map<Integer, Integer> numerics) {
+    /**
+     * make a print format
+     *
+     * */
+    public static String format(SortedMap<Integer, Boolean> numerics) {
         final String padding = "3";
+        final int perLine = 10;
 
         StringBuffer sb = new StringBuffer();
         String message = numerics.entrySet().stream().map(elm -> {
-            String val = elm.getValue() == null ? "" : Integer.toString(elm.getValue());
-            return elm.getKey() % 10 == 9 ? String.format("%" + padding + "s\r\n",  val) : String.format("%" + padding + "s", val);
+            String val = elm.getValue() == false ? "/" : Integer.toString(elm.getKey());
+            return elm.getKey() % perLine == (perLine - 1) ? String.format("%" + padding + "s\r\n",  val) : String.format("%" + padding + "s", val);
         }).collect(Collectors.joining());
 
         return sb.append(message).toString();
