@@ -22,15 +22,13 @@ public class A002SieveOfEratosthenes {
         // terminate rule: upper limit is less than or equal to square root of max value.
         int ceil = (int) Math.sqrt(max);
 
-        for(int i = 3;  ; i++) {
+        // until first greater number. and 11 is the greater than or equal to square root of 100 (= 10).
+        for(int i = 3; i < ceil ; i++) {
 
             if (isNotPrimeNumber(list, i)) continue;
 
             // sieve by Prime number.
             list = sieve(list, i);
-
-            // until first greater number. and 11 is the greater than or equal to square root of 100 (= 10).
-            if (i >= ceil) break;
 
         }
 
