@@ -1,4 +1,4 @@
-package practice.basicfeature.generics;
+package practice.basicfeature.novice.extendsinterface.abstruct;
 
 /**
  * This Class is a limit of generics class type.

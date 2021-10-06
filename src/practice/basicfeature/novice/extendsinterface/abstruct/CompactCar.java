@@ -1,4 +1,4 @@
-package practice.basicfeature.generics;
+package practice.basicfeature.novice.extendsinterface.abstruct;
 
 public class CompactCar extends Car {
 

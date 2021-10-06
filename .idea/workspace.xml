@@ -1,16 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="39a498de-5369-4491-a8c7-508b37f84dfc" name="Default Changelist" comment="a">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/threading/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/threading/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/practice/basicfeature/novice/threading/ManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/algorithm/A002SieveOfEratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/algorithm/A002SieveOfEratosthenes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/annotate/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/annotate/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/extendsinterface/abstruct/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/extendsinterface/abstruct/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/extendsinterface/abstruct/CompactCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/extendsinterface/abstruct/CompactCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/extendsinterface/abstruct/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/extendsinterface/abstruct/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/extendsinterface/abstruct/Sedan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/extendsinterface/abstruct/Sedan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/extendsinterface/abstruct/SmartDrivable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/extendsinterface/abstruct/SmartDrivable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/extendsinterface/abstruct/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/extendsinterface/abstruct/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/threading/DeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/threading/DeadLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/threading/Detail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/threading/Detail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/threading/ManagerRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/threading/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/practice/basicfeature/generics/RunnerClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/practice/basicfeature/novice/annotate/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/practice/basicfeature/novice/annotate/RunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/practice/basicfeature/novice/threading/RunnerTest.java" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,9 +67,6 @@
     <expand />
     <select />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -62,6 +90,12 @@
                 <item name="mysample" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mysample" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -69,365 +103,35 @@
       </state>
     </system>
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="mysample" />
-  </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.43457574">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/novice/polym/MainTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/algorithm/A002SieveOfEratosthenesTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="232">
-                  <caret line="24" selection-start-line="24" selection-end-line="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.5.2/32912ebbdeda6dcc83fe50d0ca112a930a777b5f/junit-platform-commons-1.5.2-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="667" column="7" lean-forward="true" selection-start-line="667" selection-start-column="7" selection-end-line="667" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.5.2/44d1543a802a072d87cc146d9d96223d61683617/junit-jupiter-engine-5.5.2-sources.jar!/org/junit/jupiter/engine/execution/InvocationInterceptorChain.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="660">
-                  <caret line="64" selection-start-line="64" selection-end-line="64" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.5.2/44d1543a802a072d87cc146d9d96223d61683617/junit-jupiter-engine-5.5.2-sources.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2400">
-                  <caret line="206" selection-start-line="206" selection-end-line="206" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.5.2/6fc5769022fca2530aa2372824a2784a1e741d3f/junit-platform-engine-1.5.2-sources.jar!/org/junit/platform/engine/support/hierarchical/ThrowableCollector.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="855">
-                  <caret line="76" selection-start-line="76" selection-end-line="76" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.5.2/44d1543a802a072d87cc146d9d96223d61683617/junit-jupiter-engine-5.5.2-sources.jar!/org/junit/jupiter/engine/execution/MethodInvocation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="59" selection-start-line="59" selection-end-line="59" />
-                  <folding>
-                    <element signature="e#1648#1649#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/threading/Detail.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/DataStruct101.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#2173#2174#0" expanded="true" />
-                    <element signature="e#2201#2202#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/algorithm/A001Factorial.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/polym/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/algorithm/A002SieveOfEratosthenes.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="389">
-                  <caret line="92" column="41" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="41" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1173#1174#0" expanded="true" />
-                    <element signature="e#1212#1213#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/build.gradle">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-324">
-                  <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/novice/DataStruct101Test.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" selection-start-line="15" selection-end-line="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/practice/utils/process/TimeWatch.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/DataStructure.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#172#173#0" expanded="true" />
-                    <element signature="e#198#199#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/utils/process/datastruct/QueTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1020">
-                  <caret line="75" column="46" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/practice/utils/datastruct/Que.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
         <option value="Gradle Kotlin DSL Settings" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Type</find>
-      <find>Money</find>
-      <find>ex</find>
-      <find>hash</find>
-      <find>InterruptedException</find>
-      <find>P.</find>
-      <find>tutorial00</find>
-      <find>getAge</find>
-      <find>rn PATTERN_NUM = Pattern.compile(&quot;[0123456789]</find>
-      <find>getValue</find>
-      <find>trywithrewource</find>
-      <find>Payment</find>
-      <find>lockState</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>DEF_INT_255.</replace>
-      <replace>OptionalWrapper</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src/practice/basicfeature/novice</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/TimeBoad.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/TempDrive.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/features/lib/TimeBoad.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/features/lib/TimeBoard.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/features/Dummy.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/DataStructure.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/Primtive.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/threading/Inter.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/threading/DeadLock.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/Main.java" />
-        <option value="$PROJECT_DIR$/tests/practice/basicfeature/datastore/DataHandlerTest.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/datastore/DataHandler.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/functionally/DataHolder.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/functionally/StreamLambda.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/threading/Item.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/threading/ItemsConcurrently.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/functionally/EmployeePredicates.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/functionally/Employee.java" />
-        <option value="$PROJECT_DIR$/src/practice/utils/logger/process/Pipe.java" />
-        <option value="$PROJECT_DIR$/src/practice/utils/process/Pipe.java" />
-        <option value="$PROJECT_DIR$/tests/utils/process/PipeTest.java" />
-        <option value="$PROJECT_DIR$/src/practice/utils/process/AsycThread.java" />
-        <option value="$PROJECT_DIR$/src/practice/utils/process/AsyncThread.java" />
-        <option value="$PROJECT_DIR$/tests/utils/process/AsyncThreadTest.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/CurrencyTypeParam.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/Runner.java" />
-        <option value="$PROJECT_DIR$/src/practice/utils/process/TimeWatch.java" />
-        <option value="$PROJECT_DIR$/tests/practice/basicfeature/DataStructureTest.java" />
-        <option value="$PROJECT_DIR$/tests/practice/basicfeature/novice/DataStruct101Test.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/DataStruct101.java" />
-        <option value="$PROJECT_DIR$/tests/utils/process/datastruct/Queest.java" />
-        <option value="$PROJECT_DIR$/src/practice/utils/datastruct/Que.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/generics/SmartDrivable.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/monkey11/Runner.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/threading/Multi.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/threading/Detail.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/threading/Agent.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/threading/AgentRunner.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/threading/Runner.java" />
-        <option value="$PROJECT_DIR$/src/practice/utils/logger/TimeLogger.java" />
-        <option value="$PROJECT_DIR$/tests/utils/process/datastruct/QueTest.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/algorithm/A001Factorial.java" />
-        <option value="$PROJECT_DIR$/tests/practice/basicfeature/algorithm/A001FactorialTest.java" />
-        <option value="$PROJECT_DIR$/tests/practice/basicfeature/algorithm/A002SieveOfEratosthenes.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/algorithm/A002E.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/novice/polym/Main.java" />
-        <option value="$PROJECT_DIR$/tests/practice/basicfeature/novice/polym/MainTest.java" />
-        <option value="$PROJECT_DIR$/tests/practice/basicfeature/algorithm/A002SieveOfEratosthenesTest.java" />
-        <option value="$PROJECT_DIR$/src/practice/basicfeature/algorithm/A002SieveOfEratosthenes.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-      </list>
-    </option>
-  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="AviKUjeO" />
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="313" />
-    <option name="y" value="110" />
-    <option name="width" value="1603" />
-    <option name="height" value="831" />
-  </component>
+  <component name="ProjectId" id="1yZ42cQZH3Basv6giWOzFCu5Pd9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="mysample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowAnt Build.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -474,86 +178,7 @@
       <recent name="$PROJECT_DIR$/libs" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.A002SieveOfEratosthenesTest">
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.novice.threading.Runner" />
-      <module name="mysample.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.basicfeature.novice.threading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A001FactorialTest.testFactorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mysample.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.basicfeature.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice.basicfeature.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.algorithm.A001FactorialTest" />
-      <option name="METHOD_NAME" value="testFactorial" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A002SieveOfEratosthenesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mysample.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.basicfeature.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice.basicfeature.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.algorithm.A002SieveOfEratosthenesTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in mysample.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mysample.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mysample.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utils.process.datastruct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="utils.process.datastruct" />
-      <option name="MAIN_CLASS_NAME" value="utils.process.datastruct.QueTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ManagerTest">
     <configuration default="true" type="ResinConfigurationType" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
       <option name="PORT" value="9900" />
       <option name="LOCAL" value="false" />
@@ -580,23 +205,98 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.novice.threading.Runner" />
+      <module name="mysample.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.basicfeature.novice.threading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mysample.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.basicfeature.novice.threading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice.basicfeature.novice.threading" />
+      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.novice.threading.ManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mysample.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.basicfeature.novice.syntax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice.basicfeature.novice.syntax" />
+      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.novice.syntax.RunnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mysample.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.basicfeature.novice.annotate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice.basicfeature.novice.annotate" />
+      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.novice.annotate.RunnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnerTest.test_go" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mysample.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.basicfeature.novice.annotate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice.basicfeature.novice.annotate" />
+      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.novice.annotate.RunnerTest" />
+      <option name="METHOD_NAME" value="test_go" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="JUnit.RunnerTest" />
+      <item itemvalue="JUnit.RunnerTest.test_go" />
+      <item itemvalue="JUnit.RunnerTest (1)" />
       <item itemvalue="Application.Runner" />
-      <item itemvalue="JUnit.QueTest" />
-      <item itemvalue="JUnit.All in mysample.test" />
-      <item itemvalue="JUnit.A001FactorialTest.testFactorial" />
-      <item itemvalue="JUnit.A002SieveOfEratosthenesTest" />
+      <item itemvalue="JUnit.ManagerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.A002SieveOfEratosthenesTest" />
-        <item itemvalue="JUnit.A001FactorialTest.testFactorial" />
-        <item itemvalue="JUnit.QueTest" />
+        <item itemvalue="JUnit.ManagerTest" />
         <item itemvalue="Application.Runner" />
-        <item itemvalue="JUnit.All in mysample.test" />
+        <item itemvalue="JUnit.RunnerTest (1)" />
+        <item itemvalue="JUnit.RunnerTest.test_go" />
+        <item itemvalue="JUnit.RunnerTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
@@ -727,38 +427,6 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="A002SieveOfEratosthenesTest - 2021.07.29 at 00h 26m 48s.xml">
-      <configuration name="A002SieveOfEratosthenesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A002SieveOfEratosthenesTest - 2021.07.29 at 00h 28m 02s.xml">
-      <configuration name="A002SieveOfEratosthenesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A002SieveOfEratosthenesTest - 2021.07.29 at 00h 29m 37s.xml">
-      <configuration name="A002SieveOfEratosthenesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A002SieveOfEratosthenesTest - 2021.07.29 at 00h 31m 48s.xml">
-      <configuration name="A002SieveOfEratosthenesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A002SieveOfEratosthenesTest - 2021.07.29 at 00h 32m 43s.xml">
-      <configuration name="A002SieveOfEratosthenesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A002SieveOfEratosthenesTest - 2021.07.29 at 00h 32m 58s.xml">
-      <configuration name="A002SieveOfEratosthenesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A002SieveOfEratosthenesTest - 2021.07.29 at 00h 37m 08s.xml">
-      <configuration name="A002SieveOfEratosthenesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A002SieveOfEratosthenesTest - 2021.08.07 at 15h 09m 37s.xml">
-      <configuration name="A002SieveOfEratosthenesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A002SieveOfEratosthenesTest - 2021.08.07 at 15h 10m 40s.xml">
-      <configuration name="A002SieveOfEratosthenesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A002SieveOfEratosthenesTest - 2021.08.07 at 15h 17m 49s.xml">
-      <configuration name="A002SieveOfEratosthenesTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="437423000" />
   </component>
@@ -771,48 +439,62 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="831" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5184275" visible="true" weight="0.18311875" />
-      <window_info id="Structure" order="1" sideWeight="0.48157248" side_tool="true" visible="true" weight="0.18311875" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.505618" side_tool="true" weight="0.29971388" />
-      <window_info id="Learn" order="7" weight="0.3294702" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49647662" weight="0.50977653" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.43991417" visible="true" weight="0.43156424" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48494554" weight="0.38268158" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49967968" weight="0.32960895" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49917218" weight="0.328594" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.56008583" side_tool="true" visible="true" weight="0.43156424" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4529148" weight="0.49720672" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Build" order="13" sideWeight="0.49337748" weight="0.328594" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49602544" visible="true" weight="0.050786838" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3298969" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3298969" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Gradle" order="9" sideWeight="0.49612403" weight="0.097964376" />
-      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.50397456" side_tool="true" visible="true" weight="0.050786838" />
-      <window_info anchor="right" id="Cargo" order="11" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="453" y="285" key="#xdebugger.evaluate" timestamp="1632411749716">
+      <screen x="0" y="23" width="1440" height="841" />
+    </state>
+    <state x="453" y="285" key="#xdebugger.evaluate/0.23.1440.841/1001.-877.1600.877/-599.-877.1600.877@0.23.1440.841" timestamp="1632411749716" />
+    <state width="1358" height="309" key="GridCell.Tab.0.bottom" timestamp="1633537256488">
+      <screen x="-599" y="-877" width="1600" height="877" />
+    </state>
+    <state width="919" height="317" key="GridCell.Tab.0.bottom/0.23.1440.841/1001.-877.1600.877/-599.-877.1600.877@0.23.1440.841" timestamp="1632411909188" />
+    <state width="1358" height="309" key="GridCell.Tab.0.bottom/0.23.1440.842/1001.-877.1600.877/-599.-877.1600.877@-599.-877.1600.877" timestamp="1633537256488" />
+    <state width="1358" height="309" key="GridCell.Tab.0.center" timestamp="1633537256487">
+      <screen x="-599" y="-877" width="1600" height="877" />
+    </state>
+    <state width="919" height="317" key="GridCell.Tab.0.center/0.23.1440.841/1001.-877.1600.877/-599.-877.1600.877@0.23.1440.841" timestamp="1632411909187" />
+    <state width="1358" height="309" key="GridCell.Tab.0.center/0.23.1440.842/1001.-877.1600.877/-599.-877.1600.877@-599.-877.1600.877" timestamp="1633537256487" />
+    <state width="1358" height="309" key="GridCell.Tab.0.left" timestamp="1633537256487">
+      <screen x="-599" y="-877" width="1600" height="877" />
+    </state>
+    <state width="919" height="317" key="GridCell.Tab.0.left/0.23.1440.841/1001.-877.1600.877/-599.-877.1600.877@0.23.1440.841" timestamp="1632411909187" />
+    <state width="1358" height="309" key="GridCell.Tab.0.left/0.23.1440.842/1001.-877.1600.877/-599.-877.1600.877@-599.-877.1600.877" timestamp="1633537256487" />
+    <state width="1358" height="309" key="GridCell.Tab.0.right" timestamp="1633537256488">
+      <screen x="-599" y="-877" width="1600" height="877" />
+    </state>
+    <state width="919" height="317" key="GridCell.Tab.0.right/0.23.1440.841/1001.-877.1600.877/-599.-877.1600.877@0.23.1440.841" timestamp="1632411909187" />
+    <state width="1358" height="309" key="GridCell.Tab.0.right/0.23.1440.842/1001.-877.1600.877/-599.-877.1600.877@-599.-877.1600.877" timestamp="1633537256488" />
+    <state width="919" height="317" key="GridCell.Tab.1.bottom" timestamp="1632411909188">
+      <screen x="0" y="23" width="1440" height="841" />
+    </state>
+    <state width="919" height="317" key="GridCell.Tab.1.bottom/0.23.1440.841/1001.-877.1600.877/-599.-877.1600.877@0.23.1440.841" timestamp="1632411909188" />
+    <state width="919" height="317" key="GridCell.Tab.1.center" timestamp="1632411909188">
+      <screen x="0" y="23" width="1440" height="841" />
+    </state>
+    <state width="919" height="317" key="GridCell.Tab.1.center/0.23.1440.841/1001.-877.1600.877/-599.-877.1600.877@0.23.1440.841" timestamp="1632411909188" />
+    <state width="919" height="317" key="GridCell.Tab.1.left" timestamp="1632411909188">
+      <screen x="0" y="23" width="1440" height="841" />
+    </state>
+    <state width="919" height="317" key="GridCell.Tab.1.left/0.23.1440.841/1001.-877.1600.877/-599.-877.1600.877@0.23.1440.841" timestamp="1632411909188" />
+    <state width="919" height="317" key="GridCell.Tab.1.right" timestamp="1632411909188">
+      <screen x="0" y="23" width="1440" height="841" />
+    </state>
+    <state width="919" height="317" key="GridCell.Tab.1.right/0.23.1440.841/1001.-877.1600.877/-599.-877.1600.877@0.23.1440.841" timestamp="1632411909188" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -828,38 +510,37 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/practice/basicfeature/novice/searchsample/SpeedChecker.java</url>
           <line>14</line>
-          <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tests/practice/basicfeature/novice/monkey11/RunnerTest.java</url>
           <line>17</line>
-          <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/Runner.java</url>
           <line>53</line>
-          <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/practice/basicfeature/novice/functionally/DelayedEvaluation.java</url>
           <line>148</line>
-          <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/practice/basicfeature/algorithm/A002SieveOfEratosthenes.java</url>
           <line>81</line>
-          <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/practice/basicfeature/algorithm/A002SieveOfEratosthenes.java</url>
           <line>69</line>
-          <properties />
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/basicfeature/novice/annotate/Runner.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -869,449 +550,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mysample$TempDrive.ic" NAME="TempDrive Coverage Results" MODIFIED="1614673106445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>practice.basicfeature.novice.syntax.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/mysample$SpeedChecker.ic" NAME="SpeedChecker Coverage Results" MODIFIED="1590055930830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>practice.basicfeature.novice.searchsample.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/mysample$TempDrive.ic" NAME="TempDrive Coverage Results" MODIFIED="1614673106445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>practice.basicfeature.novice.syntax.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/mysample$Memo.ic" NAME="Memo Coverage Results" MODIFIED="1599212795427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>practice.basicfeature.novice.functionally.*</FILTER>
     </SUITE>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/functionally/DataHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/kotlin/mysample10SNAPSHOTjar-classes.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/threading/DeadLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/DataStructureTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/utils/process/PipeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/utils/process/AsyncThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/Algo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#213#214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/Algo001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/utils/process/AsyncThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/novice/syntax/RunnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/CurrencyTypeParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/functionally/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/novice/monkey11/RunnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/novice/threading/RunnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/monkey11/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="93" column="50" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-          <folding>
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/threading/ItemsConcurrently.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/threading/AgentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/MoneyPod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/generics/SmartDrivable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/generics/CompactCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/datastore/DataHandlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/functionally/EmployeePredicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/threading/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/algorithm/A001FactorialTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/practice.basicfeature.algorithm.A002SieveOfEratosthenesTest">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>practice.basicfeature.algorithm.A002SieveOfEratosthenesTest</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">practice.basicfeature.algorithm.A002SieveOfEratosthenesTest</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="118.0" y="13.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/utils/logger/TimeLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/threading/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/threading/ManagerRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="e#1483#1484#0" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/novice/polym/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.5.2/44d1543a802a072d87cc146d9d96223d61683617/junit-jupiter-engine-5.5.2-sources.jar!/org/junit/jupiter/engine/execution/InvocationInterceptorChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.5.2/44d1543a802a072d87cc146d9d96223d61683617/junit-jupiter-engine-5.5.2-sources.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2400">
-          <caret line="206" selection-start-line="206" selection-end-line="206" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.5.2/6fc5769022fca2530aa2372824a2784a1e741d3f/junit-platform-engine-1.5.2-sources.jar!/org/junit/platform/engine/support/hierarchical/ThrowableCollector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.5.2/44d1543a802a072d87cc146d9d96223d61683617/junit-jupiter-engine-5.5.2-sources.jar!/org/junit/jupiter/engine/execution/MethodInvocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#1648#1649#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/threading/Detail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/DataStruct101.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2173#2174#0" expanded="true" />
-            <element signature="e#2201#2202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/algorithm/A001Factorial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/novice/polym/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/novice/DataStruct101Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/utils/process/TimeWatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/DataStructure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/utils/process/datastruct/QueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="75" column="46" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/utils/datastruct/Que.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.5.2/32912ebbdeda6dcc83fe50d0ca112a930a777b5f/junit-platform-commons-1.5.2-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="667" column="7" lean-forward="true" selection-start-line="667" selection-start-column="7" selection-end-line="667" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/basicfeature/algorithm/A002SieveOfEratosthenes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="92" column="41" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1173#1174#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/practice/basicfeature/algorithm/A002SieveOfEratosthenesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

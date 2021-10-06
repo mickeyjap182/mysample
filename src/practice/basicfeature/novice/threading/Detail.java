@@ -27,7 +27,10 @@ public class Detail {
         public String getKey() { return key;}
 
     }
+
     public int id;
     public int unitPrice;
     public String name;
+    public String simpleDate;
+    public String fastDate;
 }

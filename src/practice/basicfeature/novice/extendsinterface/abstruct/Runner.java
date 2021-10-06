@@ -1,10 +1,13 @@
-package practice.basicfeature.generics;
+package practice.basicfeature.novice.extendsinterface.abstruct;
 
+import practice.basicfeature.generics.Car;
+import practice.basicfeature.generics.Sedan;
 import practice.basicfeature.generics.Vehicle;
 
 import java.util.List;
 
-public class Runner { //
+public class Runner {
+    //
     public static final List<String> CLASS_LIST = List.of(
             "java.lang.String",
             "import practice.basicfeature.generics.Vehicle",
