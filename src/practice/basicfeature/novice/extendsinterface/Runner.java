@@ -1,15 +1,9 @@
 package practice.basicfeature.novice.extendsinterface;
 
-import practice.basicfeature.novice.extendsinterface.interfaces.Myif;
-import practice.basicfeature.novice.syntax.MoneyPod;
+import practice.basicfeature.novice.extendsinterface.parent.Dog;
+import practice.basicfeature.novice.extendsinterface.parent.DogGenerator;
+import practice.basicfeature.novice.extendsinterface.values.DOG_RULE;
 import practice.utils.logger.TimeLogger;
-
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.function.BiFunction;
-import java.util.function.Function;
 
 public class Runner {
 
@@ -29,15 +23,16 @@ public class Runner {
 
         logger.info("startup!! main()!!");
 
-        Animal a = new Animal();
+        Dog momo = new Dog(DOG_RULE.SHIBA, new DogGenerator(),"もも", "wwowow");
+        Dog mikan = new Dog(DOG_RULE.SHIBA, new DogGenerator(),"みかん", "wooon!");
+        Dog popo = new Dog(DOG_RULE.PERCIAN, new DogGenerator(), "ポポ", "");
 
-        Myif shiba = a.new Shiba();
-        shiba.bark(Myif.getItem("dog"));
-        shiba.sleep();
+        momo.bark(mikan);
+        mikan.bark(momo);
+        momo.avoid(mikan);
 
-        Myif percian = a.new Percian();
-        percian.bark(Myif.getItem("cat"));
-        percian.sleep();
+        popo.sleep();
+
 
     }
 }

@@ -11,6 +11,8 @@ public class DeadLock implements  Runnable {
                     System.out.print(".");
                     Thread.sleep(500);
                     count++;
+
+                    // detect deadLock, and recovery by self.
                     if (count >= reTry) throw new RuntimeException("Dead Locked! but it has been Unlocked!");
                 }
             }
