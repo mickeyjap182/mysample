@@ -1,4 +1,4 @@
-package practice.basicfeature.novice.searchsample;
+package practice.basicfeature.algorithm.searchsample;
 
 import java.util.*;
 

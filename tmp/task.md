@@ -1,0 +1,6 @@
+- log4j attack sample
+- .lockfile.lock is required?
+- collection
+- dumptype /memorylog gc.log / heapdump /me
+- servlet app
+- jframe app

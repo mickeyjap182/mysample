@@ -1,4 +1,4 @@
-package practice.basicfeature.algorithm;
+package practice.basicfeature.algorithm.famous;
 
 import java.security.InvalidParameterException;
 

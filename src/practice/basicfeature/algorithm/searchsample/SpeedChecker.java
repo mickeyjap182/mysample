@@ -1,4 +1,4 @@
-package practice.basicfeature.novice.searchsample;
+package practice.basicfeature.algorithm.searchsample;
 
 import java.util.*;
 import java.util.stream.LongStream;
@@ -29,5 +29,12 @@ public class SpeedChecker {
         printElem(s.makeRundomArr());
 
     }
+
+// 処理の部分が
+//   DB分割を作って奥。やるどうか判断をするところまで、第一段階。
+//   段階をする。説明できる材料を。
+    // デメリット s2, s3ドメイン分ける。をする。
+    //
+
 
 }

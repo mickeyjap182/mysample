@@ -1,6 +1,7 @@
 package practice.basicfeature.algorithm;
 
 import org.junit.jupiter.api.Test;
+import practice.basicfeature.algorithm.famous.A002SieveOfEratosthenes;
 
 import java.util.SortedMap;
 import java.util.stream.Collectors;
@@ -13,6 +14,7 @@ public class A002SieveOfEratosthenesTest {
         A002SieveOfEratosthenes s = new A002SieveOfEratosthenes();
 
 
+//        SortedMap<Integer, Boolean> result = s.main(0, 1679616);
         SortedMap<Integer, Boolean> result = s.main(0, 100);
         System.out.println(s.format(result));
         assertEquals(

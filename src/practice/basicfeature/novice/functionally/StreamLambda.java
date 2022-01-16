@@ -5,6 +5,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.*;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -37,6 +38,7 @@ public class StreamLambda {
 //        System.out.println(String.format("3. (Integer 100 == int 256): %b",sum(rangeList, 3));
         System.out.println(String.format("4. (Integer 100 == int 100): %b",(Boolean) (P.equals(BBB))));
         predicts();
+        mySelf.tutorial03();
 
 
     }
@@ -125,7 +127,7 @@ public class StreamLambda {
     public void tutorial02() {
         System.out.println(String.format("==02.lambdaを渡してsetupし、その後に実行する=="));
 
-        Map<Integer, String> list  = new HashMap<>();
+        Map<Integer, String> list = new HashMap<>();
 
         // 適用したいメソッドに関数(lambda)を渡す。
         Function<Integer, String> lambda = memorize(
@@ -154,6 +156,64 @@ public class StreamLambda {
 
     }
 
+    /**
+     * flat
+     */
+    public void tutorial03() {
+
+
+        Map<String, List> purchageDateUsers = new HashMap<>();
+
+        List<Purchase> purchases = List.of(
+            new Purchase("2021/12/15", "car", "aaa"),
+                new Purchase("2021/12/15", "car", "bbb"),
+                new Purchase("2021/12/16", "car", "ccc"),
+                new Purchase("2021/12/13", "car", "aaa"),
+                new Purchase("2021/12/15", "car", "bbb"),
+                new Purchase("2021/12/18", "car", "ccc"),
+                new Purchase("2021/12/18", "car", "aaa"),
+                new Purchase("2021/12/15", "car", "bbb"),
+                new Purchase("2021/12/18", "car", "ccc"),
+                new Purchase("2021/12/17", "car", "aaa"),
+                new Purchase("2021/12/13", "car", "bbb"),
+                new Purchase("2021/12/15", "car", "ccc")
+        );
+
+        Function<Purchase, String> key = k -> {
+            return k.date + k.purchaseName;
+        };
+        Integer a = 100;
+        boolean is_101 = a == 101;
+        Map<String, List<Purchase>> purchases2 = purchases.stream().collect(Collectors.groupingBy(key));
+//        Map<String, List<Purchase>> purchases2 = purchases.stream().collect(Collectors.groupingBy(key)).entrySet().stream().collect(Collectors.toMap(
+//
+//        ));
+        List<String> user1 = List.of("al", "bl", "cl");
+        List<String> user2 = List.of("al", "dl");
+        List<String> user3 = List.of("cl", "dl");
+        String sss = user2.stream().collect(Collectors.joining(","));
+        purchageDateUsers.put("class1", user1);
+        purchageDateUsers.put("class2", user2);
+        purchageDateUsers.put("class3", user3);
+//        purchases2.stream().collect(Collectors.toList());
+//        purchageDateUsers.entrySet().forEach(k -> System.out.println(k.getKey() + k.getValue().stream().collect(Collectors.joining(","))));
+        purchases2.entrySet().forEach(k -> {
+            String values = k.getValue().stream().map(v -> v.userName).collect(
+                    Collectors.joining(","));
+            System.out.println(k.getKey() + ":" + values);
+        });
+    }
+    public static class Purchase {
+        final String date;
+        final String purchaseName;
+        final String userName;
+        Purchase(String date, String purchaseName, String userName) {
+            this.date = date;
+            this.purchaseName = purchaseName;
+            this.userName = userName;
+        }
+
+    }
     public Function<Integer, String> hash() {
         return i -> {
             try {
