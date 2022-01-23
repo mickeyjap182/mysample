@@ -19,4 +19,8 @@ public class Comparer {
         return target == null ;
     }
 
+//    public static <S> ThreadLocal<S> withInitial(Supplier<? extends S> supplier) {
+//        return new ThreadLocal.SuppliedThreadLocal<>(supplier);
+//    }
+
 }

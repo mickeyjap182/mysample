@@ -92,6 +92,7 @@ public class Runner {
             System.out.println("== it is ending.==");
         }
         new Algo().start();
+        block();
     }
 
     private void reflectAndSerialize(MoneyPod mp) {
@@ -187,5 +188,9 @@ public class Runner {
         // TODO:匿名クラス
 
         // Runnableで実装とThreadで実装
+    }
+
+    void block() {
+        new Blocks().main();
     }
 }
