@@ -1,4 +1,10 @@
 package practice.basicfeature.novice.threading;
+
+import org.apache.commons.lang3.time.FastDateFormat;
+
+import java.util.Locale;
+import java.util.TimeZone;
+
 class Int1 {
     // クラス変数(スレッド間で共有する値)の宣言
     private static int i;
@@ -136,6 +142,8 @@ public class LocalThreading2 {
         tt2.setName("bbb");
         ThreadTest1 tt3 = new ThreadTest1(2);
         tt3.setName("ccc");
+        FastDateFormat.getDateTimeInstance(1, 2, TimeZone.getTimeZone("Asia/Tokyo"), Locale.JAPAN);
+//        new CalendarDate(new LocalDateTime());
 
         // 変更後
         ThreadTest2 tt2_1 = new ThreadTest2(0);

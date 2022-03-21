@@ -1,6 +1,7 @@
 package practice.basicfeature.novice.functionally;
 
 import org.junit.jupiter.api.Test;
+import practice.basicfeature.novice.functionally.essence.Predicators;
 
 import java.util.function.BiPredicate;
 import java.util.function.Predicate;
@@ -9,7 +10,7 @@ public class PredicatorTest {
     @Test
     public void test_go() {
         try {
-            Predicator<Integer> p = new Predicator<>(i -> i > 0);
+            Predicators<Integer> p = new Predicators<>(i -> i > 0);
             Predicate<Integer> y1 = p.gt10();
             BiPredicate<String, String> y2 = p.isOverLength5();
 

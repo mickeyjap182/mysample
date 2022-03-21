@@ -21,4 +21,8 @@ public class AbstractFactoryProvider<T, _T> {
                 throw new RuntimeException("no factory Type");
         }
     }
+
+    public static <_Obj> _Obj getSomthing() {
+        return (_Obj) null;
+    }
 }

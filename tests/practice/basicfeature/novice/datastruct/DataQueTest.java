@@ -12,5 +12,10 @@ class DataQueTest {
         aaa.execute();
         ConcurrentLinkedQueue que = aaa.get();
         que.stream().forEach(System.out::println);
+
+        aaa.executeConcurrent();
+        ConcurrentLinkedQueue que2 = aaa.get();
+        que2.stream().forEach(System.out::println);
+
     }
 }

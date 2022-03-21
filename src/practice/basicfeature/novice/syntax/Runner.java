@@ -28,36 +28,10 @@ public class Runner {
         public Object create(String className, String fullClassName);
     }
 
-    private static String[] learnTask;
 
     private static TimeLogger logger = TimeLogger.getLogger();
 
-    /** instance initializer */
-    List<String> numbers = new ArrayList<>(); {
-        numbers.add("One");
-        numbers.add("Two");
-        numbers.add("Three");
 
-        logger.info("instance initializer!");
-
-    }
-
-    /** static initializer */
-    static {
-        learnTask = new String[] {
-            "initializer",
-            "staticInitializer",
-            "classLoader",
-            "anonymousClass",
-            "anonymousMethod",
-        };
-        logger.info("static initializer!");
-    }
-
-    /** constructor as dynamic initializer */
-    public Runner(){
-        logger.info("in constructor!");
-    }
 
     /**
      * verify class loaders.

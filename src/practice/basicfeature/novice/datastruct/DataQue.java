@@ -1,6 +1,7 @@
 package practice.basicfeature.novice.datastruct;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
@@ -23,6 +24,26 @@ public class DataQue {
         m2.put("zozo company", "aaa");
         m2.put("i gata rolus", "abb");
         this.tenantIdQue.add(m2);
+    }
+
+    public void executeConcurrent() {
+
+        // FIFOでキュー
+        List<Thread> c = List.of(
+            new Thread(new ConcurrentQue(this.tenantIdQue, "1st")),
+            new Thread(new ConcurrentQue(this.tenantIdQue, "2nd")),
+            new Thread(new ConcurrentQue(this.tenantIdQue, "3rd"))
+        );
+
+//        for(ConcurrentQue w : c) {
+//            w.run();
+//        }
+//        c.stream().forEach(Thread::start);
+
+        for(Thread thread :c) {
+            thread.start();
+        }
+
     }
 
     public ConcurrentLinkedQueue<Map<String, String>> get() {

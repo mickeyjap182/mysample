@@ -1,5 +1,8 @@
 package practice.basicfeature.novice.functionally;
 
+import org.apache.commons.lang3.time.DateUtils;
+import org.apache.commons.lang3.time.FastDateFormat;
+
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -39,6 +42,7 @@ public class StreamLambda {
         System.out.println(String.format("4. (Integer 100 == int 100): %b",(Boolean) (P.equals(BBB))));
         predicts();
         mySelf.tutorial03();
+        mySelf.tutorial00();
 
 
     }
@@ -51,6 +55,47 @@ public class StreamLambda {
 
         int[] nums = IntStream.range(1, 11).toArray();
         new Random().ints();
+
+//        FastDateFormat f = FastDateFormat.getDateTimeInstance(
+//            Calendar.HOUR_OF_DAY, Calendar.LONG_FORMAT,
+//            TimeZone.getTimeZone("Asia/Japan"), Locale.JAPAN);
+        FastDateFormat f = FastDateFormat.getInstance("yyyy-MM-dd:HH-mm-ss");
+
+        Function<Integer, Date> fx = minute -> DateUtils.addMinutes(new Date(), minute);
+        var e = List.of(
+            new Employee(1,23,"M","Rick","Beethovan",fx.apply(-89260)),
+            new Employee(2,26,"M","Ben","Beethovan",fx.apply(600000)),
+            new Employee(3,25,"F","Risa","Beethovan",fx.apply(-344560)),
+            new Employee(4,23,"F","Luca","Beethovan",fx.apply(244560)),
+            new Employee(5,27,"M","Alex","Beethovan",fx.apply(124560)),
+            new Employee(6,23,"M","Dan","Beethovan",fx.apply(-144560)),
+            new Employee(7,27,"M","Bob","Beethovan",fx.apply(-560)),
+            new Employee(8,26,"F","Anne","Beethovan",fx.apply(304560)),
+            new Employee(9,25,"F","Cathy","Beethovan",fx.apply(-644560)),
+            new Employee(10,25,"F","Beth","John", fx.apply(944560))
+        );
+            var ret = e.stream()
+                    .collect(
+                            Collectors.groupingBy(
+                                    Employee::getId,
+                                    Collectors.groupingBy(Employee::getBirthTime, TreeMap::new, Collectors.toList()
+                            )
+                    ));
+            // 結果
+            ret.entrySet().stream().forEach(map -> {
+                StringBuilder sb = new StringBuilder();
+                sb.append("key:" + map.getKey());
+                map.getValue().entrySet().stream().forEach(treemap -> {
+                    sb.append("{ key:" + treemap.getKey() + " value:");
+                    treemap.getValue().stream().forEach(v -> sb.append(v.getFirstName()));
+                    sb.append(" }");
+                });
+                sb.append("\n");
+                System.out.print(sb.toString());
+            });
+
+
+
     }
 
     /**

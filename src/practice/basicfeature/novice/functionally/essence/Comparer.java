@@ -1,4 +1,4 @@
-package practice.basicfeature.novice.functionally;
+package practice.basicfeature.novice.functionally.essence;
 
 import java.util.List;
 import java.util.function.BiFunction;

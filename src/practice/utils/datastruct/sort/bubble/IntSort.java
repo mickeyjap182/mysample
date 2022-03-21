@@ -42,4 +42,5 @@ final public class IntSort {
         Arrays.stream(array).forEach(System.out::print);
         System.out.println("");
     }
+
 }

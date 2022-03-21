@@ -157,6 +157,16 @@ public class Runners {
         printBark.apply(cat);
         printBark.apply(dog);
 
+        List<Spice> ss = new ArrayList<Spice>();
+        List<Coriander> cs = new ArrayList<Coriander>();
+        List<YelloCoriander> ys = new ArrayList<YelloCoriander>();
+        Object s = new Spice();
+        Object c = new Coriander();
+//        @SuppressWarnings("unckecked")
+        List<? extends Spice> cc = (List<? extends Spice>) cs;
+        @SuppressWarnings("unckecked")
+        List<? super YelloCoriander> css = (List<? super YelloCoriander>) ys;
+
         int a = Payment.CREDIT.getValue();
 
         logger.info(Integer.toString(a));
@@ -172,7 +182,7 @@ public class Runners {
         String[] enumValue = new String[] {"SPARROW", "MORE", null};
         for(var value: enumValue) {
             try {
-                Bird.valueOf(value);
+//                Bird.valueOf(value);
 
             } catch(IllegalArgumentException | NullPointerException e) {
                 e.printStackTrace();

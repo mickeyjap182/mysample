@@ -1,13 +1,14 @@
-package practice.basicfeature.novice.functionally;
+package practice.basicfeature.novice.functionally.essence;
 
 import java.util.function.BiPredicate;
 import java.util.function.Predicate;
 
-public class Predicator<T> implements Predicate<T> {
+public class Predicators<T> implements Predicate<T> {
 
+    /** ラムダ式 filterできるbool結果式? */
     private final Predicate<T> target;
 
-    public Predicator(Predicate<T> func){
+    public Predicators(Predicate<T> func){
         target = func;
 //        target = i -> (i - 10 > 10);
 //        target = (p<Executor<T>> -> p.execute(t));
