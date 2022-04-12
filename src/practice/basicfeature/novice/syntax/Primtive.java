@@ -1,5 +1,9 @@
 package practice.basicfeature.novice.syntax;
 
+import practice.utils.logger.DebugLogger;
+import practice.utils.logger.Pattern;
+
+import java.util.*;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -79,4 +83,102 @@ public class Primtive {
         }
 
     }
+    public void cast(String[] args) {
+
+
+        String[] list = new String[]{"A","B","C","D","E"};
+        String[] list3 = new String[]{null,null,null,null,null};
+//        String[] list = null; // -> NPE.
+        var id = Arrays.stream(list).map(v -> {
+            String ret;
+            switch(v) {
+                case "D":
+                    ret = v + " is great!";
+                    break;
+                case "C":
+                    ret = v + " is good!";
+                    break;
+                default:
+                    ret = null;
+            }
+            return ret;
+        }).filter(Objects::nonNull)
+                .findFirst();
+        System.out.println(id.orElse("NOTHING!"));
+
+        Arrays.stream(list)
+                .flatMap(x -> Stream.of(x, x+ "0", x+ "01"))
+                .forEach(System.out::println);
+
+        List<String> list2 = Collections.emptyList();
+        var id2 = list2.stream().map(v -> {
+            String ret;
+            switch(v) {
+                case "D":
+                    ret = v + " is great!";
+                    break;
+                case "C":
+                    ret = v + " is good!";
+                    break;
+                default:
+                    ret = null;
+            }
+            return ret;
+        }).filter(Objects::nonNull)
+                .findFirst();
+
+        Optional<String> a  = Arrays.stream(list3).filter(v -> !Objects.isNull(v)).findFirst();
+        String answer = a.isEmpty() ? "empty" : a.get();
+        System.out.println(answer);
+        try {
+            String s2 = null;
+            System.out.println(id2.orElse("NOTHING2!"));
+            System.out.println(s2);
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
+
+//        Integer a2 = Integer.valueOf(s2); // エラーになる。
+        var debug =  new DebugLogger();
+
+        Map<Pattern, Object> testPatterns = new LinkedHashMap<>();
+        testPatterns.put(new Pattern(1,"001","数値のプリミティブへのキャスト") ,Integer.valueOf(10));
+        testPatterns.put(new Pattern(2,"002","null値のキャスト") , null);
+        testPatterns.put(new Pattern(3,"003","範囲外のキャスト") ,Integer.MAX_VALUE);
+
+        doEach(testPatterns, debug);
+    }
+    private static int toPrim(Integer i) {
+        return i.intValue();
+    }
+    public static void doEach(Map<Pattern, Object> patterns, DebugLogger debugLogger) {
+
+        for(Map.Entry<Pattern, Object> pattern: patterns.entrySet()) {
+            var target = pattern.getKey();
+            debugLogger.logging(System.out, DebugLogger.IOResource.CONSOLE, target);
+            try {
+                switch (target.getId()) {
+                    case 1:
+                    case 2:
+                        int p = toPrim((Integer)pattern.getValue());
+                        System.out.println(p);
+                        break;
+                    case 3:
+                        Integer v = Integer.valueOf((Integer)pattern.getValue());
+                        Long t = Long.valueOf(v.longValue());
+                        Long r = 1L + t;
+                        System.out.println(r);
+                        break;
+
+                    default:
+                        break;
+
+                }
+
+            } catch(Exception e) {
+                System.out.println(String.format("Error: pattern: %d - %s  value:", target.getId(), target.getDetail(), pattern.getValue() == null ? "null" : pattern.getValue() ));
+            }
+        }
+    }
+
 }

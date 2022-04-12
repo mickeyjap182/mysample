@@ -1,20 +1,46 @@
 package practice.basicfeature.novice.designpetterns.solid.s.before.domains;
 
-public class Employee {
-    public void calcuratePay() {
-        int unitprice = 1500;
-        int times = regularHours(3, 8);
-        System.out.println(String.format("workingtime: %d",unitprice * times));
+import java.io.Serializable;
+
+public class Employee implements Serializable {
+    private int id;
+    private final String code;
+    private final String name;
+    private final int unitPrice;
+    public Employee(String pCode, String pName, int pUnitPrice) {
+        code = pCode;
+        name = pName;
+        unitPrice = pUnitPrice;
 
     }
-    public void reportHours() {
-        int times = regularHours(3, 8);
-        System.out.println(String.format("workingtime: %d", times));
+    public int calculatePay(int pDays, int pHoursPerDay) {
+        int times = regularHours(pDays, pHoursPerDay);
+        return unitPrice * times;
     }
-    public void save() {
-
+    public int reportHours(int pDays, int pHoursPerDay) {
+        return regularHours(pDays, pHoursPerDay);
     }
-    private int regularHours(int days, int hoursPerday) {
-        return days * hoursPerday;
+    public Employee save(Repository repository) {
+        repository.saveEmployee(this);
+        return repository.getEmployee(this.code);
+    }
+    private int regularHours(int days, int hoursPerDay) {
+        // TODO: defferent
+        return days * hoursPerDay;
+    }
+    public int getId() {
+        return id;
+    }
+    public String getCode() {
+        return code;
+    }
+    public String getName() {
+        return name;
+    }
+    public int getUnitPrice() {
+        return unitPrice;
+    }
+    public void setId(int pId) {
+        id = pId;
     }
 }

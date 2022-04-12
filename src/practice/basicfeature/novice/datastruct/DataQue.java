@@ -15,7 +15,6 @@ public class DataQue {
     public void execute() {
 
         // FIFOでキュー
-
         Map<String, String> m = new HashMap<>();
         m.put("melon company", "aaa");
         m.put("you maths", "abb");
@@ -54,4 +53,5 @@ public class DataQue {
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
+
 }

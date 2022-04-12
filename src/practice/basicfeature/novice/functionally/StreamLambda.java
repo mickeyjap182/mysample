@@ -18,13 +18,29 @@ public class StreamLambda {
     public static final int BBB = 256;
     public static void main(String[] args) {
         StreamLambda mySelf = new StreamLambda();
+        mySelf.numberStream();
         mySelf.easyMethod01();
         mySelf.tutorial01();
         mySelf.tutorial02();
         // https://stackoverflow.com/questions/32206092/java8-method-reference-used-as-function-object-to-combine-functions
 
-        Integer P = 100;
+//        List<Integer> rangeList = boxedStream.collect(Collectors.toList());
 
+
+//        System.out.println(String.format("3. (Integer 100 == int 256): %b",sum(rangeList, 3));
+        predicts();
+        mySelf.tutorial03();
+        mySelf.tutorial00();
+
+
+    }
+
+    /**
+     * sample of Stream
+     */
+    public void numberStream() {
+        // int型のやつ。
+        Integer P = 100;
         System.out.println(String.format("1. (Integer 100 == int 100): %b",(Boolean) (P == AAA)));
         System.out.println(String.format("2. (Integer 100.equals( int 100)): %b",(Boolean) (P.equals(AAA))));
 
@@ -35,18 +51,9 @@ public class StreamLambda {
         P = 256;
         IntStream rangeStream = IntStream.range(1, 10);
         Stream boxedStream = rangeStream.boxed();
-//        List<Integer> rangeList = boxedStream.collect(Collectors.toList());
-
-
-//        System.out.println(String.format("3. (Integer 100 == int 256): %b",sum(rangeList, 3));
         System.out.println(String.format("4. (Integer 100 == int 100): %b",(Boolean) (P.equals(BBB))));
-        predicts();
-        mySelf.tutorial03();
-        mySelf.tutorial00();
-
 
     }
-
 
     /**
      * sample of Stream
@@ -93,8 +100,6 @@ public class StreamLambda {
                 sb.append("\n");
                 System.out.print(sb.toString());
             });
-
-
 
     }
 
@@ -233,6 +238,9 @@ public class StreamLambda {
 //        Map<String, List<Purchase>> purchases2 = purchases.stream().collect(Collectors.groupingBy(key)).entrySet().stream().collect(Collectors.toMap(
 //
 //        ));
+        System.out.println("===end date====");
+        Stream<Purchase> purchase = purchases2.entrySet().stream().flatMap(v -> v.getValue().stream());
+        purchase.forEach(v -> System.out.println(v.date));
         List<String> user1 = List.of("al", "bl", "cl");
         List<String> user2 = List.of("al", "dl");
         List<String> user3 = List.of("cl", "dl");
