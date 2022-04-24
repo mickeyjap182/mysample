@@ -6,8 +6,8 @@ public class MoneyPod {
     /**
      * @TODO if amount parameter change 'Integer' to 'int', NoSuchMethodException occured at getDeclaredConstructor();
      */
-    public MoneyPod() {
-        amount = 0;
+    public MoneyPod(Integer am ) {
+        amount = am;
     }
 
     /**

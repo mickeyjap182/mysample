@@ -53,7 +53,7 @@ public class Runner {
 //        SerializationUtils.clone();
 
 
-        Class<?> cls = Class.forName(className);
+        Class<MoneyPod> cls = (Class) Class.forName(className);
         try {
             Constructor<?> c = cls.getDeclaredConstructor(Integer.class);
             Object instance = c.newInstance(100);
@@ -101,9 +101,8 @@ public class Runner {
                 return 10;
             }
             public void bark() {
-                System.out.println("mew!!");
+                System.out.println("new!!");
             }
-
         };
 
         /** Inner Functions. */
@@ -148,7 +147,6 @@ public class Runner {
             } catch(IllegalArgumentException | NullPointerException e) {
                 e.printStackTrace();
             }
-
         }
         System.out.println("============== List");
         List<String> list;
@@ -165,6 +163,8 @@ public class Runner {
     }
 
     void block() {
+        System.out.println("=== start ===");
         new Blocks().main();
+        System.out.println("=== end ===");
     }
 }
