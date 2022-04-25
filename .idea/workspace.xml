@@ -23,24 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39a498de-5369-4491-a8c7-508b37f84dfc" name="Default Changelist" comment="a">
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/interfaces/MarkerInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/interfaces/impl/MakerIfSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/utils/infra/net/FQDN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/utils/security/Sign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/utils/security/sign/KeyGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/practice/basicfeature/novice/functionally/essence/ComparerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/practice/basicfeature/novice/interfaces/impl/MakerIfSampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/practice/utils/infra/net/FQDNTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/practice/utils/security/SignTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tooles/analyze/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/mactools.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/FinancialDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/FinancialReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/FinancialReportInteractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/FinancialReportInterractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/Presenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/presenter/PrintPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/presenter/ScreenPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/view/PDFView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/view/WebView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/functionally/essence/Comparer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/functionally/essence/Comparer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/functionally/essence/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/functionally/essence/Functions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/Blocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/Blocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/MoneyPod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/MoneyPod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/task.md" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/task.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,9 +90,9 @@
         <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
+        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -162,11 +155,11 @@
       <recent name="practice.basicfeature.novice.designpetterns.organization.functional" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.basicfeature.novice.designpetterns.solid.i.after.presenter" />
+      <recent name="practice.basicfeature.novice.designpetterns.solid.i.after.view" />
+      <recent name="practice.basicfeature.novice.designpetterns.solid.i.after" />
       <recent name="practice.basicfeature.novice.designpetterns.solid.s.after.usecases" />
       <recent name="practice.basicfeature.novice.designpetterns.solid.s.after.domains" />
-      <recent name="practice.basicfeature.novice.designpetterns.solid.s.before.actors" />
-      <recent name="practice.basicfeature.novice.designpetterns.solid.s" />
-      <recent name="practice.basicfeature.novice.functionally" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tmp" />
@@ -183,7 +176,7 @@
       <recent name="$PROJECT_DIR$/ext/app/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MakerIfSampleTest.マーカーインターフェーステスト">
+  <component name="RunManager" selected="JAR Application.resinstop">
     <configuration default="true" type="ResinConfigurationType" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
       <option name="PORT" value="9900" />
       <option name="LOCAL" value="false" />
@@ -310,11 +303,9 @@
       <item itemvalue="JUnit.FQDNTest.ホストからIPアドレス引き" />
       <item itemvalue="JUnit.SignTest" />
       <item itemvalue="JUnit.MakerIfSampleTest.インターフェーステスト" />
-      <item itemvalue="JUnit.MakerIfSampleTest.マーカーインターフェーステスト" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MakerIfSampleTest.マーカーインターフェーステスト" />
         <item itemvalue="JUnit.MakerIfSampleTest.インターフェーステスト" />
         <item itemvalue="JUnit.SignTest" />
         <item itemvalue="JUnit.FQDNTest.ホストからIPアドレス引き" />
@@ -476,11 +467,11 @@
       <screen x="0" y="25" width="1440" height="833" />
     </state>
     <state x="463" y="272" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1649388984359" />
-    <state x="33" y="-717" key="#com.intellij.ide.util.MemberChooser" timestamp="1650772260623">
+    <state x="33" y="-717" key="#com.intellij.ide.util.MemberChooser" timestamp="1650901549234">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
     <state x="569" y="175" key="#com.intellij.ide.util.MemberChooser/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1646202550160" />
-    <state x="33" y="-717" key="#com.intellij.ide.util.MemberChooser/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650772260623" />
+    <state x="33" y="-717" key="#com.intellij.ide.util.MemberChooser/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650901549234" />
     <state x="226" y="403" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1647228338446">
       <screen x="0" y="25" width="1440" height="834" />
     </state>
@@ -500,48 +491,48 @@
     <state x="-64" y="-689" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649777196322" />
     <state x="482" y="39" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1644942764105" />
     <state x="685" y="280" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.2048.1202@0.25.2048.1202" timestamp="1642335130702" />
-    <state width="1448" height="205" key="GridCell.Tab.0.bottom" timestamp="1650566045105">
+    <state width="1448" height="205" key="GridCell.Tab.0.bottom" timestamp="1650773822459">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
     <state width="1448" height="183" key="GridCell.Tab.0.bottom/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649779278541" />
     <state width="1398" height="183" key="GridCell.Tab.0.bottom/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1648658811582" />
-    <state width="1448" height="205" key="GridCell.Tab.0.bottom/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650566045105" />
+    <state width="1448" height="205" key="GridCell.Tab.0.bottom/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650773822459" />
     <state width="1398" height="365" key="GridCell.Tab.0.bottom/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.834" timestamp="1646982819378" />
     <state width="1398" height="103" key="GridCell.Tab.0.bottom/0.25.1440.875/1001.-875.1600.830/-599.-875.1600.875@0.25.1440.875" timestamp="1647339662483" />
     <state width="1448" height="338" key="GridCell.Tab.0.bottom/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650266812044" />
     <state width="1398" height="324" key="GridCell.Tab.0.bottom/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@0.25.1440.875" timestamp="1644230226064" />
     <state width="1448" height="205" key="GridCell.Tab.0.bottom/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650368364336" />
     <state width="1398" height="317" key="GridCell.Tab.0.bottom/0.25.2048.1202@0.25.2048.1202" timestamp="1642934081617" />
-    <state width="1448" height="205" key="GridCell.Tab.0.center" timestamp="1650566045105">
+    <state width="1448" height="205" key="GridCell.Tab.0.center" timestamp="1650773822458">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
     <state width="1448" height="183" key="GridCell.Tab.0.center/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649779278541" />
     <state width="1398" height="183" key="GridCell.Tab.0.center/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1648658811581" />
-    <state width="1448" height="205" key="GridCell.Tab.0.center/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650566045105" />
+    <state width="1448" height="205" key="GridCell.Tab.0.center/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650773822458" />
     <state width="1398" height="365" key="GridCell.Tab.0.center/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.834" timestamp="1646982819376" />
     <state width="1398" height="103" key="GridCell.Tab.0.center/0.25.1440.875/1001.-875.1600.830/-599.-875.1600.875@0.25.1440.875" timestamp="1647339662483" />
     <state width="1448" height="338" key="GridCell.Tab.0.center/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650266812043" />
     <state width="1398" height="324" key="GridCell.Tab.0.center/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@0.25.1440.875" timestamp="1644230226063" />
     <state width="1448" height="205" key="GridCell.Tab.0.center/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650368364334" />
     <state width="1398" height="317" key="GridCell.Tab.0.center/0.25.2048.1202@0.25.2048.1202" timestamp="1642934081617" />
-    <state width="1448" height="205" key="GridCell.Tab.0.left" timestamp="1650566045104">
+    <state width="1448" height="205" key="GridCell.Tab.0.left" timestamp="1650773822458">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
     <state width="1448" height="183" key="GridCell.Tab.0.left/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649779278541" />
     <state width="1398" height="183" key="GridCell.Tab.0.left/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1648658811579" />
-    <state width="1448" height="205" key="GridCell.Tab.0.left/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650566045104" />
+    <state width="1448" height="205" key="GridCell.Tab.0.left/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650773822458" />
     <state width="1398" height="365" key="GridCell.Tab.0.left/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.834" timestamp="1646982819376" />
     <state width="1398" height="103" key="GridCell.Tab.0.left/0.25.1440.875/1001.-875.1600.830/-599.-875.1600.875@0.25.1440.875" timestamp="1647339662482" />
     <state width="1448" height="338" key="GridCell.Tab.0.left/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650266812043" />
     <state width="1398" height="324" key="GridCell.Tab.0.left/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@0.25.1440.875" timestamp="1644230226062" />
     <state width="1448" height="205" key="GridCell.Tab.0.left/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650368364334" />
     <state width="1398" height="317" key="GridCell.Tab.0.left/0.25.2048.1202@0.25.2048.1202" timestamp="1642934081616" />
-    <state width="1448" height="205" key="GridCell.Tab.0.right" timestamp="1650566045105">
+    <state width="1448" height="205" key="GridCell.Tab.0.right" timestamp="1650773822458">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
     <state width="1448" height="183" key="GridCell.Tab.0.right/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649779278541" />
     <state width="1398" height="183" key="GridCell.Tab.0.right/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1648658811581" />
-    <state width="1448" height="205" key="GridCell.Tab.0.right/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650566045105" />
+    <state width="1448" height="205" key="GridCell.Tab.0.right/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650773822458" />
     <state width="1398" height="365" key="GridCell.Tab.0.right/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.834" timestamp="1646982819377" />
     <state width="1398" height="103" key="GridCell.Tab.0.right/0.25.1440.875/1001.-875.1600.830/-599.-875.1600.875@0.25.1440.875" timestamp="1647339662483" />
     <state width="1448" height="338" key="GridCell.Tab.0.right/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650266812044" />
