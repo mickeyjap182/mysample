@@ -4,6 +4,7 @@ package practice.utils.datastruct.sort.bubble;
 import org.apache.commons.lang3.ArrayUtils;
 
 import java.util.Arrays;
+import java.util.function.Function;
 
 /**
  * bubblesort
@@ -36,6 +37,40 @@ final public class IntSort {
         }
 
         return sorted;
+    }
+
+    public int[] outer(int[] array) {
+        if (ArrayUtils.isEmpty(array)) return new int[]{};
+
+        int[] currentArray = array;
+        for(int j = 0; j < array.length; j++) {
+            currentArray = inner(currentArray);
+            debug(currentArray);
+        }
+
+        return currentArray;
+    }
+
+    public int[] inner(int[] currentArray) {
+        if (ArrayUtils.isEmpty(currentArray)) return new int[]{};
+
+        int[] workTarget = new int[currentArray.length];
+        for(int i = 0; i < workTarget.length; i++) {
+            if (i == 0) {
+                workTarget[i] = currentArray[i];
+            } else if(workTarget[i-1] > currentArray[i]) {
+                workTarget[i] = workTarget[i-1];
+                workTarget[i-1] = currentArray[i];
+            } else {
+                workTarget[i] = currentArray[i];
+            }
+        }
+
+        return workTarget;
+    }
+
+    public  int[] merge(Function<int[], int[]> outer, Function<int[], int[]> inner) {
+        return new int[2];
     }
 
     public static void debug(int[] array) {

@@ -1,13 +1,13 @@
 package practice.basicfeature.novice.functionally;
 
 import org.apache.commons.lang3.time.DateUtils;
-import org.apache.commons.lang3.time.FastDateFormat;
 
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.*;
 import java.util.function.Function;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -16,24 +16,6 @@ public class StreamLambda {
 
     public static final int AAA = 100;
     public static final int BBB = 256;
-    public static void main(String[] args) {
-        StreamLambda mySelf = new StreamLambda();
-        mySelf.numberStream();
-        mySelf.easyMethod01();
-        mySelf.tutorial01();
-        mySelf.tutorial02();
-        // https://stackoverflow.com/questions/32206092/java8-method-reference-used-as-function-object-to-combine-functions
-
-//        List<Integer> rangeList = boxedStream.collect(Collectors.toList());
-
-
-//        System.out.println(String.format("3. (Integer 100 == int 256): %b",sum(rangeList, 3));
-        predicts();
-        mySelf.tutorial03();
-        mySelf.tutorial00();
-
-
-    }
 
     /**
      * sample of Stream
@@ -48,26 +30,49 @@ public class StreamLambda {
         System.out.println(String.format("3. (Integer 100 == int 256): %b",(Boolean) (P == BBB)));
         System.out.println(String.format("4. (Integer 100 == int 100): %b",(Boolean) (P.equals(BBB))));
 
-        P = 256;
+        IntStream rangeStream = IntStream.range(1, 10);
+
+        System.out.println(String.format("5. (IntStream.count()): %d",rangeStream.count()));
+        System.out.println(String.format("6. (IntStream.max()): %d",IntStream.range(1, 10).max().getAsInt()));
+        System.out.println(String.format("7. (IntStream.min()): %d",IntStream.range(1, 11).min().getAsInt()));
+        System.out.println(String.format("8. (IntStream.average()): %f",IntStream.range(1, 12).average().getAsDouble()));
+
+        IntStream multi = IntStream.of(1, 3, 5, 7, 11, 5, 3);
+        System.out.println(String.format("9. (IntStream.distinct()): %d",multi.distinct().count()));
+
+        Predicate<Integer> predicate = x -> x > 20;
+        System.out.println(String.format("10. (IntStream.allMatch()): %b", IntStream.of(1, 3, 5, 7, 11, 5, 3).allMatch(predicate::test)));
+
+        new Random().ints();
+//        ToIntFunction<int[]>[] x = (x1) -> {
+//            Arrays.stream(x1).sorted();
+//        };
+
+    }
+    public void stringStream() {
+        Function<String, Integer> function = StreamLambda.combine(String::length, n -> n * 2);
+        System.out.println(function.apply("foo"));
+
+    }
+
+    public void castStream() {
         IntStream rangeStream = IntStream.range(1, 10);
         Stream boxedStream = rangeStream.boxed();
-        System.out.println(String.format("4. (Integer 100 == int 100): %b",(Boolean) (P.equals(BBB))));
+        boxedStream.forEach(System.out::println);
 
+    }
+
+
+    public static <T1, T2, T3> Function<T1, T3> combine(
+            Function<T1, T2> first,
+            Function<T2, T3> second) {
+        return first.andThen(second);
     }
 
     /**
      * sample of Stream
      */
-    public void tutorial00() {
-
-        int[] nums = IntStream.range(1, 11).toArray();
-        new Random().ints();
-
-//        FastDateFormat f = FastDateFormat.getDateTimeInstance(
-//            Calendar.HOUR_OF_DAY, Calendar.LONG_FORMAT,
-//            TimeZone.getTimeZone("Asia/Japan"), Locale.JAPAN);
-        FastDateFormat f = FastDateFormat.getInstance("yyyy-MM-dd:HH-mm-ss");
-
+    public void ListMapStreams() {
         Function<Integer, Date> fx = minute -> DateUtils.addMinutes(new Date(), minute);
         var e = List.of(
             new Employee(1,23,"M","Rick","Beethovan",fx.apply(-89260)),

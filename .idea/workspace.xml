@@ -23,13 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39a498de-5369-4491-a8c7-508b37f84dfc" name="Default Changelist" comment="a">
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/UseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/utils/datetime/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/practice/basicfeature/novice/functionally/StreamLambdaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/FinancialReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/FinancialReportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/FinancialReportInterractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/FinancialReportInteracter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/view/PDFView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/view/PDFView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/view/WebView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/view/WebView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/functionally/StreamLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/functionally/StreamLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/utils/datastruct/sort/bubble/IntSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/utils/datastruct/sort/bubble/IntSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/practice/utils/datastruct/sort/bubble/IntSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/practice/utils/datastruct/sort/bubble/IntSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,9 +85,9 @@
         <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -137,11 +136,11 @@
       <recent name="practice.basicfeature.novice.functionally" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="practice.basicfeature.novice.functionally" />
       <recent name="practice.basicfeature.novice.interfaces.impl" />
       <recent name="practice.utils.security" />
       <recent name="practice.utils.infra.net" />
       <recent name="practice.basicfeature.novice.functionally.essence" />
-      <recent name="practice.utils.datastruct" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -172,7 +171,7 @@
       <recent name="$PROJECT_DIR$/ext/app/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JAR Application.resinstop">
+  <component name="RunManager" selected="JUnit.StreamLambdaTest.doMain">
     <configuration default="true" type="ResinConfigurationType" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
       <option name="PORT" value="9900" />
       <option name="LOCAL" value="false" />
@@ -199,33 +198,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparerTest.testMonkey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mysample.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.basicfeature.novice.functionally.essence.*" />
+          <option name="PATTERN" value="practice.utils.datastruct.sort.bubble.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice.basicfeature.novice.functionally.essence" />
-      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.novice.functionally.essence.ComparerTest" />
-      <option name="METHOD_NAME" value="testMonkey" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="practice.utils.datastruct.sort.bubble" />
+      <option name="MAIN_CLASS_NAME" value="practice.utils.datastruct.sort.bubble.IntSortTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FQDNTest.ホストからIPアドレス引き" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntSortTest.sortasc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mysample.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.utils.infra.net.*" />
+          <option name="PATTERN" value="practice.utils.datastruct.sort.bubble.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice.utils.infra.net" />
-      <option name="MAIN_CLASS_NAME" value="practice.utils.infra.net.FQDNTest" />
-      <option name="METHOD_NAME" value="ホストからIPアドレス引き" />
+      <option name="PACKAGE_NAME" value="practice.utils.datastruct.sort.bubble" />
+      <option name="MAIN_CLASS_NAME" value="practice.utils.datastruct.sort.bubble.IntSortTest" />
+      <option name="METHOD_NAME" value="sortasc" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -278,6 +276,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamLambdaTest.doMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mysample.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.basicfeature.novice.functionally.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice.basicfeature.novice.functionally" />
+      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.novice.functionally.StreamLambdaTest" />
+      <option name="METHOD_NAME" value="doMain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="resin" type="JarApplication">
       <option name="JAR_PATH" value="$PROJECT_DIR$/libs/app/lib/resin.jar" />
       <option name="PROGRAM_PARAMETERS" value="start" />
@@ -295,17 +309,19 @@
     <list>
       <item itemvalue="JAR Application.resinstop" />
       <item itemvalue="JAR Application.resin" />
-      <item itemvalue="JUnit.ComparerTest.testMonkey" />
-      <item itemvalue="JUnit.FQDNTest.ホストからIPアドレス引き" />
       <item itemvalue="JUnit.SignTest" />
       <item itemvalue="JUnit.MakerIfSampleTest.インターフェーステスト" />
+      <item itemvalue="JUnit.IntSortTest.sortasc" />
+      <item itemvalue="JUnit.IntSortTest" />
+      <item itemvalue="JUnit.StreamLambdaTest.doMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamLambdaTest.doMain" />
+        <item itemvalue="JUnit.IntSortTest.sortasc" />
+        <item itemvalue="JUnit.IntSortTest" />
         <item itemvalue="JUnit.MakerIfSampleTest.インターフェーステスト" />
         <item itemvalue="JUnit.SignTest" />
-        <item itemvalue="JUnit.FQDNTest.ホストからIPアドレス引き" />
-        <item itemvalue="JUnit.ComparerTest.testMonkey" />
       </list>
     </recent_temporary>
   </component>
@@ -482,48 +498,48 @@
     <state x="-64" y="-689" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649777196322" />
     <state x="482" y="39" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1644942764105" />
     <state x="-64" y="-689" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650990792537" />
-    <state width="1448" height="205" key="GridCell.Tab.0.bottom" timestamp="1650773822459">
+    <state width="1448" height="205" key="GridCell.Tab.0.bottom" timestamp="1651084073412">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
     <state width="1448" height="183" key="GridCell.Tab.0.bottom/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649779278541" />
     <state width="1398" height="183" key="GridCell.Tab.0.bottom/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1648658811582" />
-    <state width="1448" height="205" key="GridCell.Tab.0.bottom/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650773822459" />
+    <state width="1448" height="205" key="GridCell.Tab.0.bottom/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651084073412" />
     <state width="1398" height="365" key="GridCell.Tab.0.bottom/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.834" timestamp="1646982819378" />
     <state width="1398" height="103" key="GridCell.Tab.0.bottom/0.25.1440.875/1001.-875.1600.830/-599.-875.1600.875@0.25.1440.875" timestamp="1647339662483" />
     <state width="1448" height="338" key="GridCell.Tab.0.bottom/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650266812044" />
     <state width="1398" height="324" key="GridCell.Tab.0.bottom/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@0.25.1440.875" timestamp="1644230226064" />
     <state width="1448" height="205" key="GridCell.Tab.0.bottom/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650368364336" />
     <state width="1398" height="317" key="GridCell.Tab.0.bottom/0.25.2048.1202@0.25.2048.1202" timestamp="1642934081617" />
-    <state width="1448" height="205" key="GridCell.Tab.0.center" timestamp="1650773822458">
+    <state width="1448" height="205" key="GridCell.Tab.0.center" timestamp="1651084073411">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
     <state width="1448" height="183" key="GridCell.Tab.0.center/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649779278541" />
     <state width="1398" height="183" key="GridCell.Tab.0.center/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1648658811581" />
-    <state width="1448" height="205" key="GridCell.Tab.0.center/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650773822458" />
+    <state width="1448" height="205" key="GridCell.Tab.0.center/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651084073411" />
     <state width="1398" height="365" key="GridCell.Tab.0.center/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.834" timestamp="1646982819376" />
     <state width="1398" height="103" key="GridCell.Tab.0.center/0.25.1440.875/1001.-875.1600.830/-599.-875.1600.875@0.25.1440.875" timestamp="1647339662483" />
     <state width="1448" height="338" key="GridCell.Tab.0.center/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650266812043" />
     <state width="1398" height="324" key="GridCell.Tab.0.center/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@0.25.1440.875" timestamp="1644230226063" />
     <state width="1448" height="205" key="GridCell.Tab.0.center/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650368364334" />
     <state width="1398" height="317" key="GridCell.Tab.0.center/0.25.2048.1202@0.25.2048.1202" timestamp="1642934081617" />
-    <state width="1448" height="205" key="GridCell.Tab.0.left" timestamp="1650773822458">
+    <state width="1448" height="205" key="GridCell.Tab.0.left" timestamp="1651084073411">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
     <state width="1448" height="183" key="GridCell.Tab.0.left/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649779278541" />
     <state width="1398" height="183" key="GridCell.Tab.0.left/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1648658811579" />
-    <state width="1448" height="205" key="GridCell.Tab.0.left/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650773822458" />
+    <state width="1448" height="205" key="GridCell.Tab.0.left/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651084073411" />
     <state width="1398" height="365" key="GridCell.Tab.0.left/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.834" timestamp="1646982819376" />
     <state width="1398" height="103" key="GridCell.Tab.0.left/0.25.1440.875/1001.-875.1600.830/-599.-875.1600.875@0.25.1440.875" timestamp="1647339662482" />
     <state width="1448" height="338" key="GridCell.Tab.0.left/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650266812043" />
     <state width="1398" height="324" key="GridCell.Tab.0.left/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@0.25.1440.875" timestamp="1644230226062" />
     <state width="1448" height="205" key="GridCell.Tab.0.left/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650368364334" />
     <state width="1398" height="317" key="GridCell.Tab.0.left/0.25.2048.1202@0.25.2048.1202" timestamp="1642934081616" />
-    <state width="1448" height="205" key="GridCell.Tab.0.right" timestamp="1650773822458">
+    <state width="1448" height="205" key="GridCell.Tab.0.right" timestamp="1651084073412">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
     <state width="1448" height="183" key="GridCell.Tab.0.right/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649779278541" />
     <state width="1398" height="183" key="GridCell.Tab.0.right/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1648658811581" />
-    <state width="1448" height="205" key="GridCell.Tab.0.right/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650773822458" />
+    <state width="1448" height="205" key="GridCell.Tab.0.right/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651084073412" />
     <state width="1398" height="365" key="GridCell.Tab.0.right/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.834" timestamp="1646982819377" />
     <state width="1398" height="103" key="GridCell.Tab.0.right/0.25.1440.875/1001.-875.1600.830/-599.-875.1600.875@0.25.1440.875" timestamp="1647339662483" />
     <state width="1448" height="338" key="GridCell.Tab.0.right/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650266812044" />
@@ -550,12 +566,12 @@
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
     <state x="-125" y="-849" key="SettingsEditor/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650546561228" />
-    <state x="-449" y="-501" width="612" height="348" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1650772540997">
+    <state x="-449" y="-624" width="612" height="348" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1651082334663">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
     <state x="-449" y="-501" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650548384998" />
     <state x="135" y="381" width="612" height="348" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1646202612382" />
-    <state x="-449" y="-501" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650772540997" />
+    <state x="-449" y="-624" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651082334663" />
     <state x="-449" y="-501" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650365092513" />
     <state x="192" y="539" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.25.2048.1202@0.25.2048.1202" timestamp="1642935842416" />
     <state x="-323" y="-695" width="950" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1650265518011">
