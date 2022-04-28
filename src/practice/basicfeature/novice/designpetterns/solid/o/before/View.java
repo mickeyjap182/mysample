@@ -1,4 +1,4 @@
-package practice.basicfeature.novice.designpetterns.solid.i.after;
+package practice.basicfeature.novice.designpetterns.solid.o.before;
 
 public interface View {
     public void setTitle(String title);

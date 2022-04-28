@@ -1,6 +1,6 @@
-package practice.basicfeature.novice.designpetterns.solid.i.after.view;
+package practice.basicfeature.novice.designpetterns.cleanarchitecture.view;
 
-import practice.basicfeature.novice.designpetterns.solid.i.after.View;
+import practice.basicfeature.novice.designpetterns.solid.o.before.View;
 
 public class WebView implements View {
 
