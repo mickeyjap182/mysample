@@ -23,31 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39a498de-5369-4491-a8c7-508b37f84dfc" name="Default Changelist" comment="a">
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/o/before/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/o/before/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/o/before/Presenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/o/before/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/o/before/presenter/PrintPresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/o/before/presenter/ScreenPresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/o/before/usecase/financial/FinancialDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/o/before/usecase/financial/FinancialReportController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/o/before/usecase/financial/FinancialReportInteractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/o/before/view/PDFView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/o/before/view/WebView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/practice/basicfeature/novice/designpetterns/solid/o/before/usecase/financial/FinancialReportControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/cleanarchitecture/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/FinancialDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/cleanarchitecture/FinancialDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/FinancialReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/cleanarchitecture/FinancialReportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/FinancialReportInteracter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/cleanarchitecture/FinancialReportInteracter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/FinancialReportInteractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/cleanarchitecture/FinancialReportInteractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/cleanarchitecture/Presenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/UseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/cleanarchitecture/UseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/cleanarchitecture/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/presenter/PrintPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/cleanarchitecture/presenter/PrintPresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/presenter/ScreenPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/cleanarchitecture/presenter/ScreenPresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/view/PDFView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/cleanarchitecture/view/PDFView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/after/view/WebView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/cleanarchitecture/view/WebView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/Initializers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/syntax/Initializers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +167,7 @@
       <recent name="$PROJECT_DIR$/ext/app/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FinancialReportControllerTest.before_openclosed">
+  <component name="RunManager" selected="JUnit.InitializersTest.testInitializers">
     <configuration default="true" type="ResinConfigurationType" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
       <option name="PORT" value="9900" />
       <option name="LOCAL" value="false" />
@@ -233,6 +210,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InitializersTest.testInitializers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mysample.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.basicfeature.novice.syntax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice.basicfeature.novice.syntax" />
+      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.novice.syntax.InitializersTest" />
+      <option name="METHOD_NAME" value="testInitializers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mysample.test" />
       <extension name="coverage">
@@ -259,22 +252,6 @@
       <option name="PACKAGE_NAME" value="practice.utils.datastruct.sort.bubble" />
       <option name="MAIN_CLASS_NAME" value="practice.utils.datastruct.sort.bubble.IntSortTest" />
       <option name="METHOD_NAME" value="sortasc" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MakerIfSampleTest.インターフェーステスト" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mysample.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.basicfeature.novice.interfaces.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice.basicfeature.novice.interfaces.impl" />
-      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.novice.interfaces.impl.MakerIfSampleTest" />
-      <option name="METHOD_NAME" value="インターフェーステスト" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -329,19 +306,19 @@
     <list>
       <item itemvalue="JAR Application.resinstop" />
       <item itemvalue="JAR Application.resin" />
-      <item itemvalue="JUnit.MakerIfSampleTest.インターフェーステスト" />
       <item itemvalue="JUnit.IntSortTest.sortasc" />
       <item itemvalue="JUnit.IntSortTest" />
       <item itemvalue="JUnit.StreamLambdaTest.doMain" />
       <item itemvalue="JUnit.FinancialReportControllerTest.before_openclosed" />
+      <item itemvalue="JUnit.InitializersTest.testInitializers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InitializersTest.testInitializers" />
         <item itemvalue="JUnit.FinancialReportControllerTest.before_openclosed" />
         <item itemvalue="JUnit.StreamLambdaTest.doMain" />
         <item itemvalue="JUnit.IntSortTest.sortasc" />
         <item itemvalue="JUnit.IntSortTest" />
-        <item itemvalue="JUnit.MakerIfSampleTest.インターフェーステスト" />
       </list>
     </recent_temporary>
   </component>
@@ -523,48 +500,48 @@
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
     <state x="-6" y="-698" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651155032395" />
-    <state width="1448" height="205" key="GridCell.Tab.0.bottom" timestamp="1651084207414">
+    <state width="1448" height="205" key="GridCell.Tab.0.bottom" timestamp="1651172304540">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
     <state width="1448" height="183" key="GridCell.Tab.0.bottom/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649779278541" />
     <state width="1398" height="183" key="GridCell.Tab.0.bottom/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1648658811582" />
-    <state width="1448" height="205" key="GridCell.Tab.0.bottom/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651084207414" />
+    <state width="1448" height="205" key="GridCell.Tab.0.bottom/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651172304540" />
     <state width="1398" height="365" key="GridCell.Tab.0.bottom/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.834" timestamp="1646982819378" />
     <state width="1398" height="103" key="GridCell.Tab.0.bottom/0.25.1440.875/1001.-875.1600.830/-599.-875.1600.875@0.25.1440.875" timestamp="1647339662483" />
     <state width="1448" height="338" key="GridCell.Tab.0.bottom/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650266812044" />
     <state width="1398" height="324" key="GridCell.Tab.0.bottom/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@0.25.1440.875" timestamp="1644230226064" />
     <state width="1448" height="205" key="GridCell.Tab.0.bottom/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650368364336" />
     <state width="1398" height="317" key="GridCell.Tab.0.bottom/0.25.2048.1202@0.25.2048.1202" timestamp="1642934081617" />
-    <state width="1448" height="205" key="GridCell.Tab.0.center" timestamp="1651084207414">
+    <state width="1448" height="205" key="GridCell.Tab.0.center" timestamp="1651172304539">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
     <state width="1448" height="183" key="GridCell.Tab.0.center/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649779278541" />
     <state width="1398" height="183" key="GridCell.Tab.0.center/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1648658811581" />
-    <state width="1448" height="205" key="GridCell.Tab.0.center/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651084207414" />
+    <state width="1448" height="205" key="GridCell.Tab.0.center/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651172304539" />
     <state width="1398" height="365" key="GridCell.Tab.0.center/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.834" timestamp="1646982819376" />
     <state width="1398" height="103" key="GridCell.Tab.0.center/0.25.1440.875/1001.-875.1600.830/-599.-875.1600.875@0.25.1440.875" timestamp="1647339662483" />
     <state width="1448" height="338" key="GridCell.Tab.0.center/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650266812043" />
     <state width="1398" height="324" key="GridCell.Tab.0.center/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@0.25.1440.875" timestamp="1644230226063" />
     <state width="1448" height="205" key="GridCell.Tab.0.center/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650368364334" />
     <state width="1398" height="317" key="GridCell.Tab.0.center/0.25.2048.1202@0.25.2048.1202" timestamp="1642934081617" />
-    <state width="1448" height="205" key="GridCell.Tab.0.left" timestamp="1651084207414">
+    <state width="1448" height="205" key="GridCell.Tab.0.left" timestamp="1651172304538">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
     <state width="1448" height="183" key="GridCell.Tab.0.left/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649779278541" />
     <state width="1398" height="183" key="GridCell.Tab.0.left/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1648658811579" />
-    <state width="1448" height="205" key="GridCell.Tab.0.left/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651084207414" />
+    <state width="1448" height="205" key="GridCell.Tab.0.left/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651172304538" />
     <state width="1398" height="365" key="GridCell.Tab.0.left/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.834" timestamp="1646982819376" />
     <state width="1398" height="103" key="GridCell.Tab.0.left/0.25.1440.875/1001.-875.1600.830/-599.-875.1600.875@0.25.1440.875" timestamp="1647339662482" />
     <state width="1448" height="338" key="GridCell.Tab.0.left/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650266812043" />
     <state width="1398" height="324" key="GridCell.Tab.0.left/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@0.25.1440.875" timestamp="1644230226062" />
     <state width="1448" height="205" key="GridCell.Tab.0.left/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650368364334" />
     <state width="1398" height="317" key="GridCell.Tab.0.left/0.25.2048.1202@0.25.2048.1202" timestamp="1642934081616" />
-    <state width="1448" height="205" key="GridCell.Tab.0.right" timestamp="1651084207414">
+    <state width="1448" height="205" key="GridCell.Tab.0.right" timestamp="1651172304539">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
     <state width="1448" height="183" key="GridCell.Tab.0.right/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649779278541" />
     <state width="1398" height="183" key="GridCell.Tab.0.right/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1648658811581" />
-    <state width="1448" height="205" key="GridCell.Tab.0.right/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651084207414" />
+    <state width="1448" height="205" key="GridCell.Tab.0.right/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651172304539" />
     <state width="1398" height="365" key="GridCell.Tab.0.right/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.834" timestamp="1646982819377" />
     <state width="1398" height="103" key="GridCell.Tab.0.right/0.25.1440.875/1001.-875.1600.830/-599.-875.1600.875@0.25.1440.875" timestamp="1647339662483" />
     <state width="1448" height="338" key="GridCell.Tab.0.right/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650266812044" />
