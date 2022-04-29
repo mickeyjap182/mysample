@@ -12,7 +12,7 @@ public class Initializers extends ParentInitializers {
 
     public enum STATUS_MESSAGE {
         STATIC_INITIALIZER( "****  static initializer!"),
-        PARENT_INITIALIZER("no args no message ParentInitializers."),
+        PARENT_CONSTRUCTOR("no args no message ParentInitializers."),
         INSTANCE_INITIALIZER("**** instance initializer!"),
         INITIAL_BLOCK("**** run initial block"),
         CONSTRUCTOR("**** in constructor!");
@@ -112,7 +112,7 @@ class ParentInitializers {
     protected static TimeLogger logger;
 
     public ParentInitializers() {
-        this(Initializers.STATUS_MESSAGE.PARENT_INITIALIZER.message()); // It must be top of method.
+        this(Initializers.STATUS_MESSAGE.PARENT_CONSTRUCTOR.message()); // It must be top of method.
     }
 
     public ParentInitializers(String message) {
