@@ -6,3 +6,8 @@
   - Docker-Desktop for individual free license
   - Virtual Box (6.1.29 or )or vmware
   - 
+
+- flutter
+- rbenv
+- miniconda
+- wireshark

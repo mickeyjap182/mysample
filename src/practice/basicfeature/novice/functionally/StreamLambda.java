@@ -6,6 +6,9 @@ import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.function.BiConsumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -72,9 +75,9 @@ public class StreamLambda {
     /**
      * sample of Stream
      */
-    public void ListMapStreams() {
+    public strictfp void ListMapStreams() {
         Function<Integer, Date> fx = minute -> DateUtils.addMinutes(new Date(), minute);
-        var e = List.of(
+        var employees = List.of(
             new Employee(1,23,"M","Rick","Beethovan",fx.apply(-89260)),
             new Employee(2,26,"M","Ben","Beethovan",fx.apply(600000)),
             new Employee(3,25,"F","Risa","Beethovan",fx.apply(-344560)),
@@ -86,26 +89,79 @@ public class StreamLambda {
             new Employee(9,25,"F","Cathy","Beethovan",fx.apply(-644560)),
             new Employee(10,25,"F","Beth","John", fx.apply(944560))
         );
-            var ret = e.stream()
-                    .collect(
-                            Collectors.groupingBy(
-                                    Employee::getId,
-                                    Collectors.groupingBy(Employee::getBirthTime, TreeMap::new, Collectors.toList()
-                            )
-                    ));
-            // 結果
-            ret.entrySet().stream().forEach(map -> {
-                StringBuilder sb = new StringBuilder();
-                sb.append("key:" + map.getKey());
-                map.getValue().entrySet().stream().forEach(treemap -> {
-                    sb.append("{ key:" + treemap.getKey() + " value:");
-                    treemap.getValue().stream().forEach(v -> sb.append(v.getFirstName()));
-                    sb.append(" }");
-                });
-                sb.append("\n");
-                System.out.print(sb.toString());
+        var ret = employees.stream()
+                .collect(
+                        Collectors.groupingBy(
+                                Employee::getId,
+                                Collectors.groupingBy(Employee::getBirthTime, TreeMap::new, Collectors.toList()
+                        )
+                ));
+        // 結果
+        ret.entrySet().stream().forEach(map -> {
+            StringBuilder sb = new StringBuilder();
+            sb.append("key:" + map.getKey());
+            map.getValue().entrySet().stream().forEach(treemap -> {
+                sb.append("{ key:" + treemap.getKey() + " value:");
+                treemap.getValue().stream().forEach(v -> sb.append(v.getFirstName()));
+                sb.append(" }");
             });
+            sb.append("\n");
+            System.out.print(sb.toString());
+        });
 
+
+        // divide into groups.
+        BiConsumer<List<Employee>, Map<Integer, List<Employee>>> teamNize = (emp, nodes) -> {
+            var index = new AtomicInteger();
+            employees.parallelStream()
+                    .forEach(
+                        e -> {
+                            // Mappinf
+                            var i = index.getAndIncrement() % nodes.size();
+                            nodes.get(i).add(e);
+                        }
+                    );
+        };
+
+        // average age on each of team members.
+        Function<Map<Integer, List<Employee>>, Map<Integer,Double>> averageAge = (emps) -> {
+            return emps.entrySet().parallelStream()
+                .map(e -> {
+                    var size = e.getValue().size();
+                    var sum = e.getValue().stream().map(Employee::getAge).reduce((accum,  i) -> accum + i).orElse(0);
+                    double avg = sum == 0 ? 0 : (double) sum / size;
+                    return Map.entry(e.getKey(), avg);
+                }).collect(Collectors.toMap(
+                    e -> e.getKey(),
+                    e -> e.getValue(),
+                (e1, e2) -> e1
+            ));
+        };
+
+        // prepare for grouping.
+        final Map<Integer, List<Employee>> nodes = IntStream.range(0, 3).boxed()
+                .collect(
+                        ConcurrentHashMap::new,
+                        (Map<Integer, List<Employee>> m , Integer i) -> m.put(i, new ArrayList<>()),
+                        Map::putAll
+                );
+
+
+        long c = nodes.values().stream().map(v -> v.stream().count()).reduce((prev, curr) -> prev + curr).orElse(0L);
+        System.out.println(String.format(" reduce total: %d", c));
+
+        // divide employees into 3 groups.
+        teamNize.accept(employees, nodes);
+        System.out.println(String.format(" nodes.size(): %d", nodes.size()));
+        c = nodes.values().stream().map(v -> v.stream().count()).reduce((prev, curr) -> prev + curr).orElse(0L);
+        System.out.println(String.format(" reduce total: %d", c));
+
+        // each teams.
+        var ages = averageAge.apply(nodes);
+        ages.entrySet().forEach(e -> System.out.println(String.format(" reduce team: %d, age(average): %f ",e.getKey() ,e.getValue())));
+
+        var index = new AtomicInteger();
+        var i = index.getAndIncrement() % nodes.size();
     }
 
     /**
