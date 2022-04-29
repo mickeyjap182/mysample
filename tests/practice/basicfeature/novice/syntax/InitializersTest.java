@@ -7,7 +7,11 @@ import static org.junit.Assert.*;
 public class InitializersTest {
     @Test
     public void testInitializers() {
+        // static context
+        //
+        assertEquals(Initializers.STATUS_MESSAGE.STATIC_INITIALIZER.message(), Initializers.getLastStatusMessage());
         Initializers i = new Initializers();
+        assertEquals(Initializers.STATUS_MESSAGE.CONSTRUCTOR.message(), Initializers.getLastStatusMessage());
         assertTrue(true);
     }
 }

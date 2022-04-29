@@ -10,9 +10,27 @@ import java.util.List;
  */
 public class Initializers extends ParentInitializers {
 
+    public enum STATUS_MESSAGE {
+        STATIC_INITIALIZER( "****  static initializer!"),
+        PARENT_INITIALIZER("no args no message ParentInitializers."),
+        INSTANCE_INITIALIZER("**** instance initializer!"),
+        INITIAL_BLOCK("**** run initial block"),
+        CONSTRUCTOR("**** in constructor!");
+        private String message;
+        STATUS_MESSAGE(String aMessage) {
+            message = aMessage;
+        }
+        public String message() {
+            return this.message;
+        }
+    }
+    public static String getLastStatusMessage() {
+        return lastStatusMessage;
+    }
+
     /** constructor as dynamic initializer */
     public Initializers(){
-        lastStatusMessage = "**** in constructor!";
+        lastStatusMessage = STATUS_MESSAGE.CONSTRUCTOR.message();
         logger.info(String.format("message: %s num: %d", lastStatusMessage, num++));
     }
 
@@ -22,7 +40,7 @@ public class Initializers extends ParentInitializers {
         numbers.add("Two");
         numbers.add("Three");
 
-        lastStatusMessage = "**** instance initializer!";
+        lastStatusMessage = STATUS_MESSAGE.INSTANCE_INITIALIZER.message();
 
         logger.info(String.format("message: %s num: %d", lastStatusMessage,  num++));
 
@@ -30,7 +48,7 @@ public class Initializers extends ParentInitializers {
 
 
     {
-        lastStatusMessage = "**** run initial block";
+        lastStatusMessage = STATUS_MESSAGE.INITIAL_BLOCK.message();
         logger = TimeLogger.getLogger();
         logger.info(String.format("message: %s num: %d",lastStatusMessage ,  num++));
     }
@@ -46,7 +64,7 @@ public class Initializers extends ParentInitializers {
                 "anonymousClass",
                 "anonymousMethod",
         };
-        lastStatusMessage = "****  static initializer!";
+        lastStatusMessage = STATUS_MESSAGE.STATIC_INITIALIZER.message();
         if (logger == null) logger = TimeLogger.getLogger();
         logger.info(String.format("message: %s num: %d ",lastStatusMessage ,num++));
     }
@@ -94,7 +112,7 @@ class ParentInitializers {
     protected static TimeLogger logger;
 
     public ParentInitializers() {
-        this("**** no args no message ParentInitializers."); // It must be top of method.
+        this(Initializers.STATUS_MESSAGE.PARENT_INITIALIZER.message()); // It must be top of method.
     }
 
     public ParentInitializers(String message) {
@@ -103,7 +121,6 @@ class ParentInitializers {
 
         logger.info(String.format("message: %s num: %d", logstatus ,  num++));
     }
-
 }
 
 class Employee {
