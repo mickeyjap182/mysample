@@ -26,4 +26,21 @@ public class CalendarDate {
         System.out.println(g2);
 
     }
+
+    public static Date getTargetDate(Date targetDate) {
+        Date currentTargetDate = null;
+        if (targetDate != null) {
+            Calendar baseTargetDate = new GregorianCalendar();
+            baseTargetDate.setTime(targetDate);
+            Calendar today = new GregorianCalendar(
+                    baseTargetDate.get(Calendar.YEAR),
+                    baseTargetDate.get(Calendar.MONTH),
+                    baseTargetDate.get(Calendar.DATE)
+                    );
+            currentTargetDate = today.getTime();
+
+        }
+        return currentTargetDate;
+        
+    }
 }
