@@ -13,9 +13,6 @@ plugins {
 group 'com.mysample'
 version '1.0-SNAPSHOT'
 
-//sourceCompatibility = javaVersion
-
-
 sourceCompatibility = 11
 targetCompatibility = 11
 [compileJava, compileTestJava]*.options*.encoding = "UTF-8"
@@ -25,71 +22,45 @@ repositories {
 }
 
 dependencies {
-    implementation 'junit:junit:4.12'
-    compile fileTree(dir: 'libs', includes: ['*.jar'])
-//    compile 'org.apache.commons:commons-lang3:3.12'
-    testCompile fileTree(dir: 'tests', includes: ['*.jar'])
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    compile fileTree(dir: 'jars', includes: ['*.jar'])
     implementation 'org.apache.commons:commons-collections4:4.4'
-    testImplementation "org.junit.jupiter:junit-jupiter:5.5.2"
 }
 
-idea {
-    module {
-        sourceDirs += file('src')
-        testSourceDirs += file('tests')
+
+sourceSets {
+
+    main {
+        java {
+            srcDirs = ['src']
+        }
+    }
+    test {
+        java {
+            srcDirs = ['tests']
+        }
+    }
+//    integrationTest {
+//        java {
+//            srcDirs = ['ittests']
+//        }
+//    }
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        showStandardStreams true
+        events 'started', 'skipped', 'passed', 'failed'
+        exceptionFormat 'full'
     }
 }
-//    jcenter()
-//
-//dependencies {
-//    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.6.0'
-//    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.6.0'
-//    compile 'org.codehaus.groovy:groovy-all:2.3.11'
-//    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-//    implementation "org.jetbrains.kotlin:kotlin-stdlib-js"
-////    testCompile group: 'junit', name: 'junit', version: '4.12'
-//    testImplementation "org.jetbrains.kotlin:kotlin-test-js"
-//    // Junit Jupiter 5.5.2 を導入
-//    // 依存関係で以下等が導入される
-//    // junit-jupiter-api:5.5.2
-//    // junit-jupiter-engine:5.5.2
-//    // junit-jupiter-platform-engine:1.5.2
-////    testImplementation 'org.junit.jupiter:junit-jupiter:5.6.0'
-////    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.6.0'
-////    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.6.0'
-////    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
-////    testImplementation 'org.junit.vintage:junit-vintage-engine:5.6.0'
-////    testImplementation 'org.junit.platform:junit-platform-launcher:5.6.0'
-////    testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.6.0")
-////    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.6.0")
-////    testRuntimeOnly("org.junit.vintage:junit-vintage-engine:5.6.0")
-////    implementation 'org.testng:testng:6.9.6'
-//}
-//
-//
+
+
 //compileKotlin {
 //    kotlinOptions.jvmTarget = "1.8"
 //}
 //compileTestKotlin {
 //    kotlinOptions.jvmTarget = "1.8"
-//}
-//
-//// for unit tests.
-//test {
-//    // This is settings for 'using Junit platform'.
-//    useJUnitPlatform {
-//        includeEngines 'junit-jupiter'
-//    }
-//
-//    testLogging {
-//        // stdout and stderr output in test cases.
-//        showStandardStreams true
-//
-//        // output events.
-//        events 'started', 'skipped', 'passed', 'failed'
-//
-//        // exception events.
-//        exceptionFormat 'full'
-//
-//    }
 //}

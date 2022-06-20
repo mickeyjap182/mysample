@@ -6,10 +6,12 @@ import practice.basicfeature.algorithm.famous.A001Factorial;
 import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
 public class A001FactorialTest {
     @Test
     public void testFactorial(){
+        assertFalse(true);
         A001Factorial f = new A001Factorial();
 
         assertEquals(120, f.getFactorial(5));

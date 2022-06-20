@@ -1,6 +1,12 @@
 # mysample
 it's just verifying for Java.
 
+## directory
+build.gradle...settings for building the project.
+src 
+main/resources...plugin for Java jar Library.
+jars/Readme.md...the Directory for Java jar.
+
 # overview 
 This is a table of content
 

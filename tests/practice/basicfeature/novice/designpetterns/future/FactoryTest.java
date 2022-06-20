@@ -4,7 +4,7 @@ package practice.basicfeature.novice.designpetterns.future;
 import org.junit.jupiter.api.Test;
 import practice.basicfeature.novice.designpetterns.future.factory.Organizer;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class FactoryTest {
     @Test

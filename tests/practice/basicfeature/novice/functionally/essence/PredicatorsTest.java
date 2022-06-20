@@ -1,6 +1,6 @@
 package practice.basicfeature.novice.functionally.essence;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.function.Predicate;
 
