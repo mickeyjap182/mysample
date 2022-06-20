@@ -1,5 +1,5 @@
 /**
- * @see http://gradle.monochromeroad.com/
+ * @see "https://gradle.monochromeroad.com/"
  */
 plugins {
 //    id 'groovy'

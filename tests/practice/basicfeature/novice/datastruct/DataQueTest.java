@@ -1,5 +1,6 @@
 package practice.basicfeature.novice.datastruct;
 
+
 import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.ConcurrentLinkedQueue;

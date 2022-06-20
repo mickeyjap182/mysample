@@ -15,7 +15,7 @@ public class DataQue {
     public void execute() {
 
         // FIFOでキュー
-        Map<String, String> m = new HashMap<>();
+        Map<String, String> m = Map.of();
         m.put("melon company", "aaa");
         m.put("you maths", "abb");
         this.tenantIdQue.add(m);
