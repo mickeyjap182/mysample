@@ -1,4 +1,4 @@
-package practice.basicfeature.novice.datastruct;
+package practice.basicfeature.datastore.datastruct;
 
 import java.util.HashMap;
 import java.util.Map;

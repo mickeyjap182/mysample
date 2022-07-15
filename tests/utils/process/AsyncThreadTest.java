@@ -45,10 +45,29 @@ public class AsyncThreadTest {
             }).collect(Collectors.toList());
 
         System.out.println("main: all thread has finished on pipline.");
+        String aaa = "eggs.";
+        String bbb = "";
+        String ccc = "";
+        // surprise
+        System.out.println(String.format("start aaa: %s", aaa));
+        if (aaa.equals("eggs.")) {
+            bbb = aaa;
+            System.out.println(String.format("in if aaa: %s", aaa));
+            System.out.println(String.format("in if bbb: %s", bbb));
+            System.out.println(String.format("in if ccc: %s", ccc));
+
+            if (bbb.equals("eggs.")) {
+                ccc = "tomato";
+                System.out.println(String.format("in if2 ccc: %s", ccc));
+            }
+        }
+
+        aaa = "apples";
+        System.out.println(String.format("overwrited: aaa: %s", aaa));
+        System.out.println(String.format("overwrited: bbb: %s", bbb));
+        System.out.println(String.format("overwrited: ccc: %s", ccc));
 
 //        prototype <aa extends ?>
-
-
 
     }
 
