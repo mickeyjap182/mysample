@@ -1,6 +1,8 @@
 package practice.basicfeature.novice.designpetterns.future.adapter;
 
 import org.junit.jupiter.api.Test;
+import practice.basicfeature.novice.designpetterns.feature.adapter.Claimant;
+import practice.basicfeature.novice.designpetterns.feature.adapter.ReceiveClaimantAdapter;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;

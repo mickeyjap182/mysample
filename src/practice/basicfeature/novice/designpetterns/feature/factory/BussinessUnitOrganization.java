@@ -1,4 +1,4 @@
-package practice.basicfeature.novice.designpetterns.future.factory;
+package practice.basicfeature.novice.designpetterns.feature.factory;
 
 
 /** 事業部制組織 */

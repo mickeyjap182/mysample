@@ -1,4 +1,4 @@
-package practice.basicfeature.novice.designpetterns.future.abstractfactory;
+package practice.basicfeature.novice.designpetterns.feature.abstractfactory;
 
 public interface Factoriable {
     // factoryできるやつ

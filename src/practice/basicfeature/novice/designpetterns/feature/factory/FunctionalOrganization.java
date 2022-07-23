@@ -1,4 +1,4 @@
-package practice.basicfeature.novice.designpetterns.future.factory;
+package practice.basicfeature.novice.designpetterns.feature.factory;
 
 /** 機能横断組織 */
 public class FunctionalOrganization implements Organizer {

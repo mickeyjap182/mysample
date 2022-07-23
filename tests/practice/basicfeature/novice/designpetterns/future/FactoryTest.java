@@ -2,7 +2,8 @@ package practice.basicfeature.novice.designpetterns.future;
 
 
 import org.junit.jupiter.api.Test;
-import practice.basicfeature.novice.designpetterns.future.factory.Organizer;
+import practice.basicfeature.novice.designpetterns.feature.Factory;
+import practice.basicfeature.novice.designpetterns.feature.factory.Organizer;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

@@ -1,4 +1,4 @@
-package practice.basicfeature.novice.designpetterns.future.adapter;
+package practice.basicfeature.novice.designpetterns.feature.adapter;
 
 public class Claimant implements Claimable {
 
@@ -28,5 +28,8 @@ public class Claimant implements Claimable {
 
     public boolean isReceipted() {
         return receipted;
+    }
+    static boolean isOdd(int a) {
+        return (a != 0 && a % 2 == 1);
     }
 }

@@ -23,23 +23,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39a498de-5369-4491-a8c7-508b37f84dfc" name="Default Changelist" comment="a">
-      <change afterPath="$PROJECT_DIR$/libs/app/log/access.log.20220101" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/datastruct/basic/parts/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/datastruct/basic/parts/Pointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/datastruct/basic/struct/UnidirectionalList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/before/OPS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/before/User01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/before/User02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/solid/i/before/User03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/utils/infra/net/HttpGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/ManagerAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/abstractfactory/ProjectManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/abstractfactory/Recruitment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/abstractfactory/TrainingMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/observer/CompanyInformationSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/observer/PersonalDepartmentPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/observer/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/datastruct/DataQue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/datastruct/DataQue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/date/CalendarDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/date/CalendarDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/practice/basicfeature/novice/datastruct/DataQueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/practice/basicfeature/novice/datastruct/DataQueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/practice/basicfeature/novice/date/CalendarDateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/practice/basicfeature/novice/date/CalendarDateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/practice/basicfeature/novice/functionally/essence/FunctionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/practice/basicfeature/novice/functionally/essence/FunctionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/practice/basicfeature/novice/threading/blocking/BlockingExecutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/practice/basicfeature/novice/threading/blocking/BlockingExecutorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/future/AbstractFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/future/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/future/Factory2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/Factory2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/future/FreeMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/FreeMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/future/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/future/PreminumMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/PreminumMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/future/abstractfactory/AbstractFactoryProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/abstractfactory/EngineeringManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/future/abstractfactory/Factoriable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/abstractfactory/Factoriable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/future/adapter/Claimable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/adapter/Claimable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/future/adapter/Claimant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/adapter/Claimant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/future/adapter/ReceiveClaimantAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/adapter/ReceiveClaimantAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/future/adapter/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/adapter/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/future/bulider/SetBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/bulider/SetBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/future/factory/BussinessUnitOrganization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/factory/BussinessUnitOrganization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/future/factory/FunctionalOrganization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/factory/FunctionalOrganization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/future/factory/Organizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/basicfeature/novice/designpetterns/feature/factory/Organizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/practice/basicfeature/novice/designpetterns/future/AbstractFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/practice/basicfeature/novice/designpetterns/future/ManagerAbstractFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/practice/basicfeature/novice/designpetterns/future/FactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/practice/basicfeature/novice/designpetterns/future/FactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/practice/basicfeature/novice/designpetterns/future/adapter/ReceiveClaimantAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/practice/basicfeature/novice/designpetterns/future/adapter/ReceiveClaimantAdapterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +109,11 @@
       <list>
         <option value="Kotlin File" />
         <option value="Gradle Kotlin DSL Settings" />
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Kotlin Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -130,7 +143,7 @@
     <property name="ToolWindowAnt Build.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/jars" />
@@ -153,11 +166,11 @@
       <recent name="practice.basicfeature.novice.functionally" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="practice.basicfeature.novice.designpetterns.future.adapter" />
+      <recent name="practice.basicfeature.novice.datastruct.basic.struct" />
       <recent name="practice.kt" />
       <recent name="practice.basicfeature.novice.threading.blocking" />
       <recent name="practice.basicfeature.novice.syntax" />
-      <recent name="practice.basicfeature.novice.designpetterns.solid.o.before.usecase.financial" />
-      <recent name="practice.basicfeature.novice.functionally" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -168,11 +181,11 @@
       <recent name="practice.basicfeature.novice.designpetterns.organization.functional" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice.basicfeature.novice.designpetterns.feature.abstractfactory" />
+      <recent name="practice.basicfeature.novice.designpetterns.future.adapter" />
       <recent name="practice.basicfeature.novice.designpetterns.solid.i.before" />
       <recent name="practice.basicfeature.novice.designpetterns.solid.o.after" />
       <recent name="practice.basicfeature.novice.designpetterns.solid.i.after" />
-      <recent name="practice.basicfeature.novice.designpetterns.solid.i.after.presenter" />
-      <recent name="practice.basicfeature.novice.designpetterns.solid.i.after.view" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/jars" />
@@ -189,7 +202,7 @@
       <recent name="$PROJECT_DIR$/plugins" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AsyncThreadTest.test_サンプル">
+  <component name="RunManager" selected="JUnit.ManagerAbstractFactoryTest.testCreate">
     <configuration default="true" type="ResinConfigurationType" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
       <option name="PORT" value="9900" />
       <option name="LOCAL" value="false" />
@@ -216,56 +229,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mysample [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="mysample [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="A001FactorialTest.testFactorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AsyncThreadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mysample.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.basicfeature.algorithm.*" />
+          <option name="PATTERN" value="utils.process.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice.basicfeature.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.algorithm.A001FactorialTest" />
-      <option name="METHOD_NAME" value="testFactorial" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="utils.process" />
+      <option name="MAIN_CLASS_NAME" value="utils.process.AsyncThreadTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -286,17 +260,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicatorsTest.testPredicators" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ManagerAbstractFactoryTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mysample.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.basicfeature.novice.functionally.essence.*" />
+          <option name="PATTERN" value="practice.basicfeature.novice.designpetterns.future.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice.basicfeature.novice.functionally.essence" />
-      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.novice.functionally.essence.PredicatorsTest" />
-      <option name="METHOD_NAME" value="testPredicators" />
+      <option name="PACKAGE_NAME" value="practice.basicfeature.novice.designpetterns.future" />
+      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.novice.designpetterns.future.ManagerAbstractFactoryTest" />
+      <option name="METHOD_NAME" value="testCreate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReceiveClaimantAdapterTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mysample.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.basicfeature.novice.designpetterns.future.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice.basicfeature.novice.designpetterns.future.adapter" />
+      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.novice.designpetterns.future.adapter.ReceiveClaimantAdapterTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnidirectionalListTest.makeList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mysample.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.basicfeature.datastore.datastruct.basic.struct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice.basicfeature.datastore.datastruct.basic.struct" />
+      <option name="MAIN_CLASS_NAME" value="practice.basicfeature.datastore.datastruct.basic.struct.UnidirectionalListTest" />
+      <option name="METHOD_NAME" value="makeList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -317,21 +323,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.mysample [dependencies]" />
-      <item itemvalue="Gradle.mysample [test]" />
       <item itemvalue="JAR Application.resinstop" />
       <item itemvalue="JAR Application.resin" />
-      <item itemvalue="JUnit.A001FactorialTest.testFactorial" />
       <item itemvalue="JUnit.AsyncThreadTest.test_サンプル" />
-      <item itemvalue="JUnit.PredicatorsTest.testPredicators" />
+      <item itemvalue="JUnit.UnidirectionalListTest.makeList" />
+      <item itemvalue="JUnit.AsyncThreadTest" />
+      <item itemvalue="JUnit.ReceiveClaimantAdapterTest.test" />
+      <item itemvalue="JUnit.ManagerAbstractFactoryTest.testCreate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ManagerAbstractFactoryTest.testCreate" />
+        <item itemvalue="JUnit.ReceiveClaimantAdapterTest.test" />
+        <item itemvalue="JUnit.AsyncThreadTest" />
+        <item itemvalue="JUnit.UnidirectionalListTest.makeList" />
         <item itemvalue="JUnit.AsyncThreadTest.test_サンプル" />
-        <item itemvalue="JUnit.PredicatorsTest.testPredicators" />
-        <item itemvalue="Gradle.mysample [test]" />
-        <item itemvalue="JUnit.A001FactorialTest.testFactorial" />
-        <item itemvalue="Gradle.mysample [dependencies]" />
       </list>
     </recent_temporary>
   </component>
@@ -497,101 +503,99 @@
     <state x="486" y="301" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1655689556349">
       <screen x="0" y="38" width="1512" height="887" />
     </state>
-    <state x="463" y="272" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1649388984359" />
     <state x="486" y="301" key="#com.intellij.fileTypes.FileTypeChooser/0.38.1512.887/794.-1055.1920.1055/-1126.-1055.1920.1055@0.38.1512.887" timestamp="1655689556349" />
-    <state x="33" y="-717" key="#com.intellij.ide.util.MemberChooser" timestamp="1651155321046">
-      <screen x="-599" y="-875" width="1600" height="875" />
+    <state x="597" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1658562505533">
+      <screen x="0" y="38" width="1512" height="888" />
     </state>
     <state x="33" y="-717" key="#com.intellij.ide.util.MemberChooser/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651155321046" />
-    <state x="-348" y="-478" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1651155175639">
-      <screen x="-599" y="-875" width="1600" height="875" />
+    <state x="597" y="198" key="#com.intellij.ide.util.MemberChooser/0.38.1512.888/-1126.-1055.1920.1055/794.-1055.1920.1055@0.38.1512.888" timestamp="1658562505533" />
+    <state x="597" y="198" key="#com.intellij.ide.util.MemberChooser/0.38.1512.888/794.-1055.1920.1055/-1126.-1055.1920.1055@0.38.1512.888" timestamp="1657898888026" />
+    <state x="237" y="441" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1657895334801">
+      <screen x="0" y="38" width="1512" height="888" />
     </state>
     <state x="-348" y="-478" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651155175639" />
-    <state x="226" y="403" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.834" timestamp="1647228338446" />
+    <state x="237" y="441" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.38.1512.888/794.-1055.1920.1055/-1126.-1055.1920.1055@0.38.1512.888" timestamp="1657895334801" />
     <state x="35" y="-576" width="483" height="262" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1651220508167">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
     <state x="35" y="-576" width="483" height="262" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651220508167" />
-    <state x="-64" y="-689" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1650990792537">
-      <screen x="-599" y="-875" width="1600" height="875" />
+    <state x="483" y="324" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1657958173809">
+      <screen x="0" y="38" width="1512" height="888" />
     </state>
-    <state x="-64" y="-689" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649777196322" />
+    <state x="483" y="324" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.38.1512.888/-274.-1055.1920.1055@0.38.1512.888" timestamp="1657958173809" />
+    <state x="506" y="107" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1658562274257">
+      <screen x="0" y="38" width="1512" height="888" />
+    </state>
     <state x="-64" y="-689" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650990792537" />
+    <state x="506" y="107" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.38.1512.888/-1126.-1055.1920.1055/794.-1055.1920.1055@0.38.1512.888" timestamp="1658562274257" />
     <state x="-6" y="-698" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651155032395">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
     <state x="-6" y="-698" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651155032395" />
-    <state width="1451" height="254" key="GridCell.Tab.0.bottom" timestamp="1655745679514">
-      <screen x="0" y="38" width="1512" height="887" />
+    <state width="1451" height="254" key="GridCell.Tab.0.bottom" timestamp="1658563644049">
+      <screen x="0" y="38" width="1512" height="888" />
     </state>
-    <state width="1448" height="183" key="GridCell.Tab.0.bottom/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649779278541" />
-    <state width="1398" height="183" key="GridCell.Tab.0.bottom/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1648658811582" />
     <state width="1448" height="205" key="GridCell.Tab.0.bottom/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651225770979" />
-    <state width="1398" height="103" key="GridCell.Tab.0.bottom/0.25.1440.875/1001.-875.1600.830/-599.-875.1600.875@0.25.1440.875" timestamp="1647339662483" />
     <state width="1448" height="338" key="GridCell.Tab.0.bottom/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650266812044" />
     <state width="1448" height="205" key="GridCell.Tab.0.bottom/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650368364336" />
     <state width="1358" height="396" key="GridCell.Tab.0.bottom/0.38.1512.886/1512.25.1920.1055@0.38.1512.886" timestamp="1654579492399" />
-    <state width="1451" height="254" key="GridCell.Tab.0.bottom/0.38.1512.887/794.-1055.1920.1055/-1126.-1055.1920.1055@0.38.1512.887" timestamp="1655745679514" />
+    <state width="1451" height="254" key="GridCell.Tab.0.bottom/0.38.1512.887/794.-1055.1920.1055/-1126.-1055.1920.1055@0.38.1512.887" timestamp="1655745778095" />
+    <state width="1451" height="254" key="GridCell.Tab.0.bottom/0.38.1512.888/-1126.-1055.1920.1055/794.-1055.1920.1055@0.38.1512.888" timestamp="1658563644049" />
+    <state width="1451" height="254" key="GridCell.Tab.0.bottom/0.38.1512.888/794.-1055.1920.1055/-1126.-1055.1920.1055@0.38.1512.888" timestamp="1657903453128" />
     <state width="1358" height="218" key="GridCell.Tab.0.bottom/0.38.1512.944/1512.25.1920.1055@0.38.1512.944" timestamp="1654568740630" />
     <state width="1358" height="218" key="GridCell.Tab.0.bottom/0.38.1512.944/1512.25.1920.984@0.38.1512.944" timestamp="1654572953666" />
-    <state width="1451" height="254" key="GridCell.Tab.0.center" timestamp="1655745679513">
-      <screen x="0" y="38" width="1512" height="887" />
+    <state width="1451" height="254" key="GridCell.Tab.0.bottom/0.38.1512.944/794.-1055.1920.1055/-1126.-1055.1920.987@0.38.1512.944" timestamp="1657619639576" />
+    <state width="1451" height="254" key="GridCell.Tab.0.center" timestamp="1658563644048">
+      <screen x="0" y="38" width="1512" height="888" />
     </state>
-    <state width="1448" height="183" key="GridCell.Tab.0.center/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649779278541" />
-    <state width="1398" height="183" key="GridCell.Tab.0.center/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1648658811581" />
     <state width="1448" height="205" key="GridCell.Tab.0.center/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651225770977" />
-    <state width="1398" height="103" key="GridCell.Tab.0.center/0.25.1440.875/1001.-875.1600.830/-599.-875.1600.875@0.25.1440.875" timestamp="1647339662483" />
     <state width="1448" height="338" key="GridCell.Tab.0.center/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650266812043" />
     <state width="1448" height="205" key="GridCell.Tab.0.center/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650368364334" />
     <state width="1358" height="396" key="GridCell.Tab.0.center/0.38.1512.886/1512.25.1920.1055@0.38.1512.886" timestamp="1654579492399" />
-    <state width="1451" height="254" key="GridCell.Tab.0.center/0.38.1512.887/794.-1055.1920.1055/-1126.-1055.1920.1055@0.38.1512.887" timestamp="1655745679513" />
+    <state width="1451" height="254" key="GridCell.Tab.0.center/0.38.1512.887/794.-1055.1920.1055/-1126.-1055.1920.1055@0.38.1512.887" timestamp="1655745778094" />
+    <state width="1451" height="254" key="GridCell.Tab.0.center/0.38.1512.888/-1126.-1055.1920.1055/794.-1055.1920.1055@0.38.1512.888" timestamp="1658563644048" />
+    <state width="1451" height="254" key="GridCell.Tab.0.center/0.38.1512.888/794.-1055.1920.1055/-1126.-1055.1920.1055@0.38.1512.888" timestamp="1657903453127" />
     <state width="1358" height="218" key="GridCell.Tab.0.center/0.38.1512.944/1512.25.1920.1055@0.38.1512.944" timestamp="1654568740630" />
     <state width="1358" height="218" key="GridCell.Tab.0.center/0.38.1512.944/1512.25.1920.984@0.38.1512.944" timestamp="1654572953665" />
-    <state width="1451" height="254" key="GridCell.Tab.0.left" timestamp="1655745679513">
-      <screen x="0" y="38" width="1512" height="887" />
+    <state width="1451" height="254" key="GridCell.Tab.0.center/0.38.1512.944/794.-1055.1920.1055/-1126.-1055.1920.987@0.38.1512.944" timestamp="1657619639574" />
+    <state width="1451" height="254" key="GridCell.Tab.0.left" timestamp="1658563644047">
+      <screen x="0" y="38" width="1512" height="888" />
     </state>
-    <state width="1448" height="183" key="GridCell.Tab.0.left/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649779278541" />
-    <state width="1398" height="183" key="GridCell.Tab.0.left/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1648658811579" />
     <state width="1448" height="205" key="GridCell.Tab.0.left/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651225770977" />
-    <state width="1398" height="103" key="GridCell.Tab.0.left/0.25.1440.875/1001.-875.1600.830/-599.-875.1600.875@0.25.1440.875" timestamp="1647339662482" />
     <state width="1448" height="338" key="GridCell.Tab.0.left/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650266812043" />
     <state width="1448" height="205" key="GridCell.Tab.0.left/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650368364334" />
     <state width="1358" height="396" key="GridCell.Tab.0.left/0.38.1512.886/1512.25.1920.1055@0.38.1512.886" timestamp="1654579492398" />
-    <state width="1451" height="254" key="GridCell.Tab.0.left/0.38.1512.887/794.-1055.1920.1055/-1126.-1055.1920.1055@0.38.1512.887" timestamp="1655745679513" />
+    <state width="1451" height="254" key="GridCell.Tab.0.left/0.38.1512.887/794.-1055.1920.1055/-1126.-1055.1920.1055@0.38.1512.887" timestamp="1655745778094" />
+    <state width="1451" height="254" key="GridCell.Tab.0.left/0.38.1512.888/-1126.-1055.1920.1055/794.-1055.1920.1055@0.38.1512.888" timestamp="1658563644047" />
+    <state width="1451" height="254" key="GridCell.Tab.0.left/0.38.1512.888/794.-1055.1920.1055/-1126.-1055.1920.1055@0.38.1512.888" timestamp="1657903453127" />
     <state width="1358" height="218" key="GridCell.Tab.0.left/0.38.1512.944/1512.25.1920.1055@0.38.1512.944" timestamp="1654568740630" />
     <state width="1358" height="218" key="GridCell.Tab.0.left/0.38.1512.944/1512.25.1920.984@0.38.1512.944" timestamp="1654572953665" />
-    <state width="1451" height="254" key="GridCell.Tab.0.right" timestamp="1655745679513">
-      <screen x="0" y="38" width="1512" height="887" />
+    <state width="1451" height="254" key="GridCell.Tab.0.left/0.38.1512.944/794.-1055.1920.1055/-1126.-1055.1920.987@0.38.1512.944" timestamp="1657619639573" />
+    <state width="1451" height="254" key="GridCell.Tab.0.right" timestamp="1658563644048">
+      <screen x="0" y="38" width="1512" height="888" />
     </state>
-    <state width="1448" height="183" key="GridCell.Tab.0.right/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649779278541" />
-    <state width="1398" height="183" key="GridCell.Tab.0.right/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1648658811581" />
     <state width="1448" height="205" key="GridCell.Tab.0.right/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651225770978" />
-    <state width="1398" height="103" key="GridCell.Tab.0.right/0.25.1440.875/1001.-875.1600.830/-599.-875.1600.875@0.25.1440.875" timestamp="1647339662483" />
     <state width="1448" height="338" key="GridCell.Tab.0.right/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650266812044" />
     <state width="1448" height="205" key="GridCell.Tab.0.right/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650368364335" />
     <state width="1358" height="396" key="GridCell.Tab.0.right/0.38.1512.886/1512.25.1920.1055@0.38.1512.886" timestamp="1654579492399" />
-    <state width="1451" height="254" key="GridCell.Tab.0.right/0.38.1512.887/794.-1055.1920.1055/-1126.-1055.1920.1055@0.38.1512.887" timestamp="1655745679513" />
+    <state width="1451" height="254" key="GridCell.Tab.0.right/0.38.1512.887/794.-1055.1920.1055/-1126.-1055.1920.1055@0.38.1512.887" timestamp="1655745778095" />
+    <state width="1451" height="254" key="GridCell.Tab.0.right/0.38.1512.888/-1126.-1055.1920.1055/794.-1055.1920.1055@0.38.1512.888" timestamp="1658563644048" />
+    <state width="1451" height="254" key="GridCell.Tab.0.right/0.38.1512.888/794.-1055.1920.1055/-1126.-1055.1920.1055@0.38.1512.888" timestamp="1657903453127" />
     <state width="1358" height="218" key="GridCell.Tab.0.right/0.38.1512.944/1512.25.1920.1055@0.38.1512.944" timestamp="1654568740630" />
     <state width="1358" height="218" key="GridCell.Tab.0.right/0.38.1512.944/1512.25.1920.984@0.38.1512.944" timestamp="1654572953666" />
-    <state width="1398" height="251" key="GridCell.Tab.1.bottom" timestamp="1647940595563">
-      <screen x="0" y="25" width="1440" height="833" />
-    </state>
-    <state width="1398" height="251" key="GridCell.Tab.1.bottom/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1647940595563" />
+    <state width="1451" height="254" key="GridCell.Tab.0.right/0.38.1512.944/794.-1055.1920.1055/-1126.-1055.1920.987@0.38.1512.944" timestamp="1657619639575" />
     <state width="1448" height="251" key="GridCell.Tab.1.bottom/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1653478940421" />
     <state width="1448" height="251" key="GridCell.Tab.1.center" timestamp="1653478940420">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
-    <state width="1398" height="251" key="GridCell.Tab.1.center/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1647940595563" />
     <state width="1448" height="251" key="GridCell.Tab.1.center/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1653478940420" />
     <state width="1448" height="251" key="GridCell.Tab.1.left" timestamp="1653478940420">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
-    <state width="1398" height="251" key="GridCell.Tab.1.left/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1647940595563" />
     <state width="1448" height="251" key="GridCell.Tab.1.left/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1653478940420" />
     <state width="1448" height="251" key="GridCell.Tab.1.right" timestamp="1653478940420">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
-    <state width="1398" height="251" key="GridCell.Tab.1.right/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1647940595563" />
     <state x="43" y="72" key="SettingsEditor" timestamp="1654570365001">
       <screen x="0" y="38" width="1512" height="944" />
     </state>
@@ -599,23 +603,24 @@
     <state x="-125" y="-849" key="SettingsEditor/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651225949879" />
     <state x="43" y="70" key="SettingsEditor/0.38.1512.886/1512.25.1920.1055@0.38.1512.886" timestamp="1654567640642" />
     <state x="43" y="72" key="SettingsEditor/0.38.1512.944/1512.25.1920.984@0.38.1512.944" timestamp="1654570365001" />
-    <state x="-449" y="-624" width="612" height="348" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1651225592629">
-      <screen x="-599" y="-875" width="1600" height="875" />
+    <state x="142" y="293" width="674" height="354" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1657899548676">
+      <screen x="0" y="38" width="1512" height="888" />
     </state>
     <state x="-449" y="-501" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650548384998" />
     <state x="-449" y="-624" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1651225592629" />
     <state x="-449" y="-501" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650365092513" />
+    <state x="142" y="293" width="674" height="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.38.1512.888/794.-1055.1920.1055/-1126.-1055.1920.1055@0.38.1512.888" timestamp="1657899548676" />
     <state x="-323" y="-695" width="950" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1650265518011">
       <screen x="-599" y="-875" width="1600" height="830" />
     </state>
     <state x="-323" y="-695" width="950" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650265518011" />
-    <state x="374" y="270" width="629" height="557" key="find.popup" timestamp="1655743945035">
-      <screen x="0" y="38" width="1512" height="887" />
+    <state x="374" y="271" width="629" height="558" key="find.popup" timestamp="1656912725630">
+      <screen x="0" y="38" width="1512" height="888" />
     </state>
-    <state x="-203" y="-646" width="665" height="548" key="find.popup/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1649416993374" />
     <state x="-203" y="-658" width="665" height="520" key="find.popup/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650265220759" />
     <state x="-203" y="-646" width="665" height="549" key="find.popup/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1650357554213" />
     <state x="374" y="270" width="629" height="557" key="find.popup/0.38.1512.887/794.-1055.1920.1055/-1126.-1055.1920.1055@0.38.1512.887" timestamp="1655743945035" />
+    <state x="374" y="271" width="629" height="558" key="find.popup/0.38.1512.888/794.-1055.1920.1055/-1126.-1055.1920.1055@0.38.1512.888" timestamp="1656912725630" />
     <state x="-360" y="-766" key="new project wizard" timestamp="1651225901377">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
@@ -627,7 +632,6 @@
     <state x="-115" y="-706" width="746" height="709" key="search.everywhere.popup" timestamp="1651224504841">
       <screen x="-599" y="-875" width="1600" height="875" />
     </state>
-    <state x="436" y="186" width="671" height="674" key="search.everywhere.popup/0.25.1440.833/1001.-875.1600.875/-599.-875.1600.875@0.25.1440.833" timestamp="1647862934613" />
     <state x="-115" y="-706" width="746" height="709" key="search.everywhere.popup/0.25.1440.834/1001.-875.1600.875/-599.-875.1600.875@-599.-875.1600.875" timestamp="1652746835669" />
     <state x="-115" y="-715" width="746" height="672" key="search.everywhere.popup/0.25.1440.875/1001.-875.1600.875/-599.-875.1600.830@-599.-875.1600.830" timestamp="1650266652907" />
   </component>
@@ -707,6 +711,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/mysample$TempDrive.ic" NAME="TempDrive Coverage Results" MODIFIED="1614673106445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>practice.basicfeature.novice.syntax.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/mysample$ManagerAbstractFactoryTest_testCreate.ic" NAME="ManagerAbstractFactoryTest.testCreate Coverage Results" MODIFIED="1658563286022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>practice.basicfeature.novice.designpetterns.future.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/mysample$Memo.ic" NAME="Memo Coverage Results" MODIFIED="1599212795427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>practice.basicfeature.novice.functionally.*</FILTER>

@@ -1,9 +1,6 @@
-package practice.basicfeature.novice;
+package practice.basicfeature.novice.designpetterns.feature.observer;
 
-import practice.basicfeature.novice.designpetterns.feature.observer.Observer;
-import practice.basicfeature.novice.designpetterns.feature.observer.Subject;
-
-public class Sample implements Subject {
+public class PersonalDepartmentPublisher implements Subject {
     @Override
     public void addSubscriber(Observer s) {
 

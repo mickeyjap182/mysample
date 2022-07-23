@@ -1,4 +1,4 @@
-package practice.basicfeature.novice.designpetterns.future.adapter;
+package practice.basicfeature.novice.designpetterns.feature.adapter;
 
 public interface Claimable {
     // 請求する。

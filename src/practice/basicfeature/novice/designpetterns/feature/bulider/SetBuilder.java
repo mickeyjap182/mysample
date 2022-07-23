@@ -1,4 +1,4 @@
-package practice.basicfeature.novice.designpetterns.future.bulider;
+package practice.basicfeature.novice.designpetterns.feature.bulider;
 
 import practice.basicfeature.novice.designpetterns.organization.functional.division.Code;
 import practice.basicfeature.novice.designpetterns.organization.functional.division.Name;
