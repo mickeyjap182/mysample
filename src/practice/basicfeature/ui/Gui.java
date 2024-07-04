@@ -1,6 +1,8 @@
 package practice.basicfeature.ui;
 
 import org.apache.commons.collections4.CollectionUtils;
+import practice.basicfeature.ui.mainpane.SelectAction;
+import practice.basicfeature.ui.mainpane.SubMenu;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -26,7 +28,6 @@ public class Gui extends JFrame implements ActionListener, WindowListener {
     private static final long serialVersionUID = 1L;
     private List<String> messages = new ArrayList<>();
 
-    JFrame subTask;
 
     // ウィンドウ本体
     public Gui() {
@@ -43,27 +44,17 @@ public class Gui extends JFrame implements ActionListener, WindowListener {
 
         // セレクトボックス
         JComboBox combo = new JComboBox();
+        combo.addActionListener(new SelectAction());
         combo.addItem("test1");
         combo.addItem("test2");
         JPanel select = new JPanel();
         select.add(combo);
-//        getContentPane().add(select, BorderLayout.CENTER);
         add(select);
 
         // ボタン作成
-        JButton btn1 = new JButton("Click Me");
+        var sub = new SubMenu();
+        JButton btn1 = sub.createBtn01("Click Me");
         add(btn1);  // ボタン追加
-        btn1.addActionListener(new ActionListener() {
-            // クリック時の処理
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                System.out.println("open new windows");
-                subTask = new JFrame("TestWindow");
-                subTask.setBounds( 100, 30, 100, 100);
-                subTask.setVisible(true);
-            }
-        });
-
     }
 
     public static void main(String[] args) {

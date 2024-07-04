@@ -6,7 +6,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 public class Que {
 
     final private BlockingQueue<String> que;
-    private Boolean isLock;
+    private Boolean isLock = false;
     public Que(int size) {
         que = new LinkedBlockingQueue<>(size);
         isLock = false;
