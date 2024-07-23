@@ -5,6 +5,7 @@ import practice.basicfeature.ui.mainpane.SelectAction;
 import practice.basicfeature.ui.mainpane.SubMenu;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
@@ -36,25 +37,39 @@ public class Gui extends JFrame implements ActionListener, WindowListener {
         // メインウィンドウの閉じ方
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+        setLayout(new FlowLayout());
+//        setLayout(new GridLayout(1,2));
         // 位置とサイズ
-        setTitle("メインペーン");
+        setTitle("書籍検索");
         setBounds(100, 100, 640, 480);
         // メインウィンドウのイベント設定
         addWindowListener(this);
 
         // セレクトボックス
+        JPanel select = new JPanel(new BorderLayout());
+        var genre = new Label("ジャンル");
+        select.add(genre, BorderLayout.NORTH);
         JComboBox combo = new JComboBox();
         combo.addActionListener(new SelectAction());
         combo.addItem("test1");
         combo.addItem("test2");
-        JPanel select = new JPanel();
-        select.add(combo);
+        select.add(combo, BorderLayout.SOUTH);
         add(select);
 
         // ボタン作成
         var sub = new SubMenu();
-        JButton btn1 = sub.createBtn01("Click Me");
-        add(btn1);  // ボタン追加
+        JButton btn1 = sub.createBtn01("一覧検索");
+        var createbtn = new JPanel(new GridLayout(2,3));
+        createbtn.setPreferredSize(new Dimension(300,100));
+        createbtn.setBackground(Color.BLUE);
+        createbtn.add(btn1);
+        createbtn.add(new JLabel(" "));
+        createbtn.add(new JLabel(" "));
+        createbtn.add(sub.createBtn01("Click Me2"));
+        createbtn.add(new JLabel(" "));
+        createbtn.add(new JLabel(" "));
+        add(createbtn);  // ボタン追加
+
     }
 
     public static void main(String[] args) {
