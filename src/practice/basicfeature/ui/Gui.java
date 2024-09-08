@@ -1,6 +1,5 @@
 package practice.basicfeature.ui;
 
-import org.apache.commons.collections4.CollectionUtils;
 import practice.basicfeature.ui.mainpane.SelectAction;
 import practice.basicfeature.ui.mainpane.SubMenu;
 
@@ -72,17 +71,10 @@ public class Gui extends JFrame implements ActionListener, WindowListener {
 
     }
 
-    public static void main(String[] args) {
-        Gui frm = new Gui();   // ウィンドウ作成
-        // 初期チェック
-        if (CollectionUtils.isNotEmpty(frm.getMessage())) {
-            // alertして終了
-            return;
-        }
-        frm.setVisible(true);  // 表示
-        System.out.println(getFrames().length);
-    }
 
+    public static Frame[] getFrames() {
+        return JFrame.getFrames();
+    }
     public List<String> getMessage() {
         return messages;
     }
