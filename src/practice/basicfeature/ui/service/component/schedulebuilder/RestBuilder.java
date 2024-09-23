@@ -3,7 +3,6 @@ package practice.basicfeature.ui.service.component.schedulebuilder;
 import org.apache.commons.lang3.NotImplementedException;
 import practice.basicfeature.ui.entities.scheduleset.LongRest;
 import practice.basicfeature.ui.entities.scheduleset.Rest;
-import practice.basicfeature.ui.entities.scheduleset.Work;
 import practice.basicfeature.ui.service.component.ScheduleBuilder;
 
 import java.util.ArrayList;

@@ -1,77 +1,81 @@
 package practice.basicfeature.ui.lib.time;
 
-import practice.basicfeature.ui.lib.time.Consts.Format;
-import practice.basicfeature.ui.lib.time.Consts.TimeZone;
-
 import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
-final public class LocalTime extends Time {
+final public class TimeHandler extends Time {
 
     private final LocalDateTime time;
     private final ZonedDateTime zone;
 
-    private LocalTime(LocalTimeBuilder builder) {
+    private TimeHandler(TimeBuilder builder) {
         super(builder);
         time = builder.time;
         zone = time.atZone(builder.zone.id);
     }
 
-
+    public String asLocalString(DateTimeFormatter formatter) {
+        return time.format(formatter);
+    }
+    public String asString(DateTimeFormatter formatter) {
+        return zone.format(formatter);
+    }
     @Override
     public String toString() {
-        return time.format(DateTimeFormatter.ofPattern(Format.DEFAULT.format()));
+        return zone.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME);
     }
-    public static class LocalTimeBuilder extends Time.Builder<LocalTimeBuilder> {
+    public static class TimeBuilder extends Time.Builder<TimeBuilder> {
 
-        private TimeZone zone;
+        private Zone zone;
         private LocalDateTime time;
-        public LocalTimeBuilder() {
+        public TimeBuilder() {
             super();
         }
 
-        public LocalTimeBuilder zone(TimeZone zone) {
+        public TimeBuilder zone(Zone zone) {
             this.zone = zone;
             return this;
         }
-        public LocalTimeBuilder time(LocalDateTime time) {
+        public TimeBuilder time(LocalDateTime time) {
             this.time = time;
             return this;
         }
         @Override
-        public LocalTime build() {
+        public TimeHandler build() {
             if (this.zone == null) {
-                this.zone = TimeZone.DEFAULT;
+                this.zone = Zone.DEFAULT;
             }
-            return new LocalTime(this);
+            return new TimeHandler(this);
         }
 
         @Override
-        protected LocalTimeBuilder me() {
+        protected TimeBuilder me() {
             return this;
         }
     }
 
-    public static LocalTime create(LocalTime time, TimeZone zone) {
+    public static TimeHandler create(TimeHandler time, Zone zone) {
         // タイムゾーン変換
         var newZone = time.zone.withZoneSameInstant(zone.id);
         var newTime = newZone.toLocalDateTime();
-        return new LocalTimeBuilder()
+        return new TimeBuilder()
                 .time(newTime)
                 .zone(zone)
                 .build();
         // ↓だけに変換するメソッドが欲しいかも
 //                withZoneSameInstant(zone.id);
     }
-//    public  LocalDateTime create(String time, Consts fmt) {
-//        LocalDateTime.parse(time, LocalDateTime.of(fmt));
-//    }
     public static LocalDateTime now(){
         return LocalDateTime.now();
     }
 
-    public static String of(LocalTime localtime, Consts.Format fmt) {
-        return localtime.time.format(DateTimeFormatter.ofPattern(fmt.toString()));
+    public static TimeHandler of(String time, DateTimeFormatter fmt, Zone zone) {
+        return new TimeBuilder()
+                .time(LocalDateTime.parse(time, fmt))
+                .zone(zone)
+                .build();
+
     }
+
 }
